@@ -1971,6 +1971,47 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -6581,7 +6622,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-fe35d198]{\n    min-height: 100vh;\n}\n.navbar[data-v-fe35d198]{\n    height: 9.6rem;\n    width: 100%;\n    position: relative !important;\n}\n.head__top[data-v-fe35d198]{\n    height: 3.6rem;\n    background-color: #F5F5F5;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n}\n.head__left[data-v-fe35d198]{\n    height: 100%;\n    display: flex;\n    align-items: center;\n    width: 7.2rem;\n    justify-content:space-between\n}\n.head__left .head__left--image[data-v-fe35d198]{\n    height: 2.2rem;\n    width:  2.2rem;\n}\n.head__right[data-v-fe35d198]{\n    height: 100%;\n    display: flex;\n    align-items: center;\n    width: 7.2rem;\n    justify-content:space-between;\n    width: 22.5rem;\n}\n.head__right .link[data-v-fe35d198]{\n    position: relative;\n    list-style: none;\n    font-size: 1.2rem;\n    font-weight: bold;\n}\n.head__right .link[data-v-fe35d198]::before{\n    content: \"\";\n    position: absolute;\n    right: -1.2rem;\n    top: 0;\n    bottom: 0;\n    width: .1rem;\n    background-color: #000;\n}\n.head__right .link[data-v-fe35d198]:last-child::before{\n    content: none;\n}\n.head__center[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n    height: 6rem ;\n}\n.logo__wrapper .text__logo[data-v-fe35d198]{\n    font-size: 2.3rem;\n    font-weight: 700;\n    letter-spacing: .1rem;\n    height: 100%;\n}\n.logo__wrapper .text__color--green[data-v-fe35d198]{\n    color: green\n}\n.head__center--links[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    width: 53rem;\n    height: 100%;\n    margin-right: -9rem !important;\n}\n.head__center--links .link[data-v-fe35d198]{\n    font-size: 1.6rem;\n    list-style: none;\n    font-weight: 700\n}\n.head__center--right[data-v-fe35d198]{\n    width: 28rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    height: 100%\n}\n.head__center--right .form__group[data-v-fe35d198]{\n    background-color: #F5F5F5;\n    width: 18rem;\n    height: 60%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 1rem;\n    border-radius: 2rem;\n}\n.form__group .search__icon[data-v-fe35d198]{\n    height: 2.1rem;\n    width: 2.1rem;\n    margin-right: 1.3rem\n}\n.form__group .search__input[data-v-fe35d198]{\n    flex: 1;\n    width: 10rem;\n    border: none;\n    outline: none;\n    background-color:#F5F5F5\n}\n.head__center--actions[data-v-fe35d198]{\n    display: flex;\n    justify-content:space-between;\n    align-items: center;\n    width: 7.5rem;\n}\n.actions__icon[data-v-fe35d198]{\n    height: 2.6rem;\n    width: 2.6rem\n}\n.actions__icon--bag[data-v-fe35d198]{\n    height: 3.7rem;\n    width: 3.8rem\n}\n.head__bottom[data-v-fe35d198]{\n    position: relative !important;\n    height: 5.8rem;\n    background-color: #F5F5F5;\n    display: flex;;\n    align-items: center;\n    justify-content: center;\n    border-bottom: 1px solid #E5E5E5;\n}\n.head__bottom .info[data-v-fe35d198]{\n    position: relative !important;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content:space-around;\n    text-align: center;\n}\n.info__title[data-v-fe35d198]{\n    font-size: 1.4rem\n}\n.info__link[data-v-fe35d198]{\n    font-size: 1.2rem;\n    color: #000;\n}\n\n/* main */\n.main[data-v-fe35d198]{\n    margin-top: 5.8rem;\n    /* background-color: blue; */\n    height: 110.2rem;\n    width:100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n}\n.main .image__wrapper[data-v-fe35d198]{\n    height: 80rem;\n    width: 100%;\n}\n.main .image__wrapper .banner__image[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n}\n.fig-caption[data-v-fe35d198]{\n    flex: 1;\n    width: 80%;\n    padding: 2rem 0;\n    display: flex;\n    flex-direction:column;\n    align-items: center;\n}\n.fig-caption .fig__passion--text__title[data-v-fe35d198]{\n    font-size: 6rem;\n    font-weight: bold;\n    text-align: center;\n    text-transform: uppercase;\n    letter-spacing: -.2rem;\n}\n.fig__passion--text__subtitle[data-v-fe35d198]{\n    text-align: center;\n    font-size: 1.5rem;\n}\n.buttons__wrapper[data-v-fe35d198]{\n    margin-top: -6rem;\n    height: 7.5rem;\n    width:22.5rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: flex-start;\n}\nbutton[data-v-fe35d198]{\n    outline: none;\n    border: none;\n    padding:1rem 2.5rem;\n    background-color: #000;\n    color: #fff;\n    border-radius: 99999px;\n    font-size: 1.5rem;\n}\n\n/* best__sale */\n.best__sale[data-v-fe35d198]{\n    margin-top: 3rem;\n    padding: 0 4.5rem;\n    height: 64.556rem;\n    display: flex;\n    flex-direction: column;\n}\n.best__sale--title[data-v-fe35d198]{\n    font-size: 2.4rem;\n    margin-bottom: 2rem;\n}\n.best__sale .card__wrapper--row[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n}\n.card__wrapper--row .card[data-v-fe35d198]{\n    height: 100%;\n    width: 38.1rem;\n    display:flex;\n    flex-direction: column;\n    justify-content:space-between;\n}\n.card .card__image__wrapper[data-v-fe35d198]{\n    height: 47.3rem;\n    width: 100%;\n}\n.card__image__wrapper .card__image[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n    -o-object-fit: contain;\n       object-fit: contain;\n}\n.card__footer[data-v-fe35d198]{\n    height: 10rem;\n    padding-top: 3rem;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    padding-bottom: 2rem\n}\n.card__footer .card__name[data-v-fe35d198]{\n    font-size: 1.9rem\n}\n.card__footer .card__link[data-v-fe35d198]{\n    position: relative;\n    font-size: 1.5rem;\n    text-decoration: none;\n    color: #000\n}\n.card__footer .card__link[data-v-fe35d198]::before{\n    content: \"\";\n    position: absolute;\n    bottom: -.2rem;\n    left: 0;\n    right: 0;\n    width:5.2rem;\n    height: .1rem;\n    background-color: #000\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-fe35d198]{\n    min-height: 100vh;\n}\n.navbar[data-v-fe35d198]{\n    height: 9.6rem;\n    width: 100%;\n    position: relative !important;\n}\n.head__top[data-v-fe35d198]{\n    height: 3.6rem;\n    background-color: #F5F5F5;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n}\n.head__left[data-v-fe35d198]{\n    height: 100%;\n    display: flex;\n    align-items: center;\n    width: 7.2rem;\n    justify-content:space-between\n}\n.head__left .head__left--image[data-v-fe35d198]{\n    height: 2.2rem;\n    width:  2.2rem;\n}\n.head__right[data-v-fe35d198]{\n    height: 100%;\n    display: flex;\n    align-items: center;\n    width: 7.2rem;\n    justify-content:space-between;\n    width: 22.5rem;\n}\n.head__right .link[data-v-fe35d198]{\n    position: relative;\n    list-style: none;\n    font-size: 1.2rem;\n    font-weight: bold;\n}\n.head__right .link[data-v-fe35d198]::before{\n    content: \"\";\n    position: absolute;\n    right: -1.2rem;\n    top: 0;\n    bottom: 0;\n    width: .1rem;\n    background-color: #000;\n}\n.head__right .link[data-v-fe35d198]:last-child::before{\n    content: none;\n}\n.head__center[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n    height: 6rem ;\n}\n.logo__wrapper .text__logo[data-v-fe35d198]{\n    font-size: 2.3rem;\n    font-weight: 700;\n    letter-spacing: .1rem;\n    height: 100%;\n}\n.logo__wrapper .text__color--green[data-v-fe35d198]{\n    color: green\n}\n.head__center--links[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    width: 53rem;\n    height: 100%;\n    margin-right: -9rem !important;\n}\n.head__center--links .link[data-v-fe35d198]{\n    font-size: 1.6rem;\n    list-style: none;\n    font-weight: 700\n}\n.head__center--right[data-v-fe35d198]{\n    width: 28rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    height: 100%\n}\n.head__center--right .form__group[data-v-fe35d198]{\n    background-color: #F5F5F5;\n    width: 18rem;\n    height: 60%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 1rem;\n    border-radius: 2rem;\n}\n.form__group .search__icon[data-v-fe35d198]{\n    height: 2.1rem;\n    width: 2.1rem;\n    margin-right: 1.3rem\n}\n.form__group .search__input[data-v-fe35d198]{\n    flex: 1;\n    width: 10rem;\n    border: none;\n    outline: none;\n    background-color:#F5F5F5\n}\n.head__center--actions[data-v-fe35d198]{\n    display: flex;\n    justify-content:space-between;\n    align-items: center;\n    width: 7.5rem;\n}\n.actions__icon[data-v-fe35d198]{\n    height: 2.6rem;\n    width: 2.6rem\n}\n.actions__icon--bag[data-v-fe35d198]{\n    height: 3.7rem;\n    width: 3.8rem\n}\n.head__bottom[data-v-fe35d198]{\n    position: relative !important;\n    height: 5.8rem;\n    background-color: #F5F5F5;\n    display: flex;;\n    align-items: center;\n    justify-content: center;\n    border-bottom: 1px solid #E5E5E5;\n}\n.head__bottom .info[data-v-fe35d198]{\n    position: relative !important;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content:space-around;\n    text-align: center;\n}\n.info__title[data-v-fe35d198]{\n    font-size: 1.4rem\n}\n.info__link[data-v-fe35d198]{\n    font-size: 1.2rem;\n    color: #000;\n}\n\n/* main */\n.main[data-v-fe35d198]{\n    margin-top: 5.8rem;\n    /* background-color: blue; */\n    height: 110.2rem;\n    width:100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n}\n.main .image__wrapper[data-v-fe35d198]{\n    height: 80rem;\n    width: 100%;\n}\n.main .image__wrapper .banner__image[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n}\n.fig-caption[data-v-fe35d198]{\n    flex: 1;\n    width: 80%;\n    padding: 2rem 0;\n    display: flex;\n    flex-direction:column;\n    align-items: center;\n}\n.fig-caption .fig__passion--text__title[data-v-fe35d198]{\n    font-size: 6rem;\n    font-weight: bold;\n    text-align: center;\n    text-transform: uppercase;\n    letter-spacing: -.2rem;\n}\n.fig__passion--text__subtitle[data-v-fe35d198]{\n    text-align: center;\n    font-size: 1.5rem;\n}\n.buttons__wrapper[data-v-fe35d198]{\n    margin-top: -6rem;\n    height: 7.5rem;\n    width:22.5rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: flex-start;\n}\nbutton[data-v-fe35d198]{\n    outline: none;\n    border: none;\n    padding:1rem 2.5rem;\n    background-color: #000;\n    color: #fff;\n    border-radius: 99999px;\n    font-size: 1.5rem;\n}\n\n/* best__sale */\n.best__sale[data-v-fe35d198]{\n    margin-top: 3rem;\n    padding: 0 4.5rem;\n    height: 64.556rem;\n    display: flex;\n    flex-direction: column;\n}\n.best__sale--title[data-v-fe35d198]{\n    font-size: 2.4rem;\n    margin-bottom: 2rem;\n}\n.best__sale .card__wrapper--row[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n}\n.card__wrapper--row .card[data-v-fe35d198]{\n    height: 100%;\n    width: 38.1rem;\n    display:flex;\n    flex-direction: column;\n    justify-content:space-between;\n}\n.card .card__image__wrapper[data-v-fe35d198]{\n    height: 47.3rem;\n    width: 100%;\n}\n.card__image__wrapper .card__image[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n    -o-object-fit: contain;\n       object-fit: contain;\n}\n.card__footer[data-v-fe35d198]{\n    height: 10rem;\n    padding-top: 3rem;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    padding-bottom: 2rem\n}\n.card__footer .card__name[data-v-fe35d198]{\n    font-size: 1.9rem\n}\n.card__footer .card__link[data-v-fe35d198]{\n    position: relative;\n    font-size: 1.5rem;\n    text-decoration: none;\n    color: #000\n}\n.card__footer .card__link[data-v-fe35d198]::before{\n    content: \"\";\n    position: absolute;\n    bottom: -.2rem;\n    left: 0;\n    right: 0;\n    width:5.2rem;\n    height: .1rem;\n    background-color: #000\n}\n\n/* for__the__course */\n.for__the__course[data-v-fe35d198]{\n    margin-top: 3.5rem;\n    padding: 0 4.5rem;\n    height: 60.55rem;\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n}\n.for__the_course--title[data-v-fe35d198]{\n    font-size: 2.4rem;\n    margin-bottom: 2rem;\n}\n.for__the__course .content[data-v-fe35d198]{\n    position: relative;\n    height: 100%;\n    widows: 100%;\n    display: flex;\n    justify-content: center;\n    gap: 2rem\n}\n.left__side__wrapper[data-v-fe35d198],\n.right__side__wrapper[data-v-fe35d198]{\n    height: 100%;\n    position: relative;\n}\n.left__side__wrapper .image__inner[data-v-fe35d198],\n.right__side__wrapper .image__inner[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n    -o-object-fit: cover;\n       object-fit: cover;\n    position: relative;\n}\n.right__side__wrapper .floating[data-v-fe35d198],\n.left__side__wrapper .floating[data-v-fe35d198]{\n    position: absolute;\n    top: 82%;\n    /* background-color: red; */\n    padding-left: 3rem;\n    width: 55%;\n    height: 8rem;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: flex-start;\n}\n.floating__title[data-v-fe35d198]{\n    font-size: 1.9rem\n}\n\n/* featured style */\n.featured__style[data-v-fe35d198]{\n    margin-top: 15rem;\n    padding: 0 4.5rem;\n    height: 64.556rem;\n    display: flex;\n    flex-direction: column;\n}\n.featured__style .content[data-v-fe35d198]{\n    position: relative;\n    height: 100%;\n    widows: 100%;\n    display: flex;\n    justify-content: center;\n    gap: 2rem\n}\n.white[data-v-fe35d198]{\n    color: #fff;\n}\n.bg-white[data-v-fe35d198]{\n    background-color: #fff;\n    color: #000\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -38355,6 +38396,106 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("a", { staticClass: "card__link", attrs: { href: "" } }, [
                 _vm._v("Acheter")
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "for__the__course" }, [
+        _c("h1", { staticClass: "for__the_course--title" }, [
+          _vm._v("Tenue de Sport")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "content" }, [
+          _c("div", { staticClass: "left__side__wrapper" }, [
+            _c("img", {
+              staticClass: "image__inner",
+              attrs: {
+                src:
+                  "https://static.nike.com/a/images/f_auto/dpr_2.0/w_576,c_limit/4fef4824-a64f-4f5f-8a72-98f4e8f4d203/nike-just-do-it.jpg",
+                alt: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "floating" }, [
+              _c("h1", { staticClass: "floating__title" }, [
+                _vm._v("Essentiels de golf pour femmes")
+              ]),
+              _vm._v(" "),
+              _c("button", { staticClass: "floating__button" }, [
+                _vm._v("Shop")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "right__side__wrapper" }, [
+            _c("img", {
+              staticClass: "image__inner",
+              attrs: {
+                src:
+                  "https://static.nike.com/a/images/f_auto/dpr_2.0/w_576,c_limit/94665d8e-5a6f-488a-b13d-21f4612d37cc/nike-just-do-it.jpg",
+                alt: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "floating" }, [
+              _c("h1", { staticClass: "floating__title" }, [
+                _vm._v("Essentiels de golf pour hommes")
+              ]),
+              _vm._v(" "),
+              _c("button", { staticClass: "floating__button" }, [
+                _vm._v("Shop")
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "featured__style" }, [
+        _c("h1", { staticClass: "for__the_course--title" }, [
+          _vm._v("Styles en vedette")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "content" }, [
+          _c("div", { staticClass: "left__side__wrapper" }, [
+            _c("img", {
+              staticClass: "image__inner",
+              attrs: {
+                src:
+                  "https://static.nike.com/a/images/f_auto/dpr_2.0/w_576,c_limit/c3e2aa95-f569-4040-a3ae-044ce1840342/nike-just-do-it.jpg",
+                alt: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "floating" }, [
+              _c("h1", { staticClass: "floating__title white" }, [
+                _vm._v("Essentiels de golf pour femmes")
+              ]),
+              _vm._v(" "),
+              _c("button", { staticClass: "floating__button bg-white" }, [
+                _vm._v("Shop")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "right__side__wrapper" }, [
+            _c("img", {
+              staticClass: "image__inner",
+              attrs: {
+                src:
+                  "https://static.nike.com/a/images/f_auto/dpr_2.0/w_576,c_limit/7edd4b16-1629-4cfa-9077-24930f37d3bc/nike-just-do-it.jpg",
+                alt: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "floating" }, [
+              _c("h1", { staticClass: "floating__title white" }, [
+                _vm._v("Essentiels de golf pour hommes")
+              ]),
+              _vm._v(" "),
+              _c("button", { staticClass: "floating__button bg-white" }, [
+                _vm._v("Shop")
               ])
             ])
           ])

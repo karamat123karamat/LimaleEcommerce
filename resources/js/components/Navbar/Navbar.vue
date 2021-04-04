@@ -89,6 +89,47 @@
                 </div>
             </div>
         </section>
+
+        <section class="for__the__course">
+            <h1 class='for__the_course--title'>Tenue de Sport</h1>
+            <div class="content">
+                <div class="left__side__wrapper">
+                    <img class="image__inner" src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_576,c_limit/4fef4824-a64f-4f5f-8a72-98f4e8f4d203/nike-just-do-it.jpg" alt="">
+                    <div class="floating">
+                        <h1 class="floating__title">Essentiels de golf pour femmes</h1>
+                        <button class="floating__button">Shop</button>
+                    </div>
+                </div>
+                <div class="right__side__wrapper">
+                    <img class="image__inner" src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_576,c_limit/94665d8e-5a6f-488a-b13d-21f4612d37cc/nike-just-do-it.jpg" alt="">
+                    <div class="floating">
+                        <h1 class="floating__title">Essentiels de golf pour hommes</h1>
+                        <button class="floating__button">Shop</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured__style">
+            <h1 class='for__the_course--title'>Styles en vedette</h1>
+            <div class="content">
+                <div class="left__side__wrapper">
+                    <img class="image__inner" src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_576,c_limit/c3e2aa95-f569-4040-a3ae-044ce1840342/nike-just-do-it.jpg" alt="">
+                    <div class="floating">
+                        <h1 class="floating__title white">Essentiels de golf pour femmes</h1>
+                        <button class="floating__button bg-white">Shop</button>
+                    </div>
+                </div>
+                <div class="right__side__wrapper">
+                    <img class="image__inner" src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_576,c_limit/7edd4b16-1629-4cfa-9077-24930f37d3bc/nike-just-do-it.jpg" alt="">
+                    <div class="floating">
+                        <h1 class="floating__title white">Essentiels de golf pour hommes</h1>
+                        <button class="floating__button bg-white">Shop</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
     
 </template>
@@ -398,5 +439,90 @@ export default {
         width:5.2rem;
         height: .1rem;
         background-color: #000
+    }
+    
+    /* for__the__course */
+    
+    .for__the__course{
+        margin-top: 3.5rem;
+        padding: 0 4.5rem;
+        height: 60.55rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .for__the_course--title{
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .for__the__course .content{
+        position: relative;
+        height: 100%;
+        widows: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 2rem
+    }
+
+    .left__side__wrapper,
+    .right__side__wrapper{
+        height: 100%;
+        position: relative;
+    }
+
+    .left__side__wrapper .image__inner,
+    .right__side__wrapper .image__inner{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+    }
+
+    .right__side__wrapper .floating,
+    .left__side__wrapper .floating{
+        position: absolute;
+        top: 82%;
+        /* background-color: red; */
+        padding-left: 3rem;
+        width: 55%;
+        height: 8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+
+    .floating__title{
+        font-size: 1.9rem
+    }
+
+    /* featured style */
+    .featured__style{
+        margin-top: 15rem;
+        padding: 0 4.5rem;
+        height: 64.556rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .featured__style .content{
+        position: relative;
+        height: 100%;
+        widows: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 2rem
+    }
+
+    .white{
+        color: #fff;
+    }
+    .bg-white{
+        background-color: #fff;
+        color: #000
     }
 </style>

@@ -1939,6 +1939,38 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -6549,7 +6581,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.navbar[data-v-fe35d198]{\n    position: relative;\n    height: 9.6rem;\n    width: 100%;\n}\n.head__top[data-v-fe35d198]{\n    height: 3.6rem;\n    background-color: #F5F5F5;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n}\n.head__left[data-v-fe35d198]{\n    height: 100%;\n    display: flex;\n    align-items: center;\n    width: 7.2rem;\n    justify-content:space-between\n}\n.head__left .head__left--image[data-v-fe35d198]{\n    height: 2.2rem;\n    width:  2.2rem;\n}\n.head__right[data-v-fe35d198]{\n    height: 100%;\n    display: flex;\n    align-items: center;\n    width: 7.2rem;\n    justify-content:space-between;\n    width: 22.5rem;\n}\n.head__right .link[data-v-fe35d198]{\n    position: relative;\n    list-style: none;\n    font-size: 1.2rem;\n    font-weight: bold;\n}\n.head__right .link[data-v-fe35d198]::before{\n    content: \"\";\n    position: absolute;\n    right: -1.2rem;\n    top: 0;\n    bottom: 0;\n    width: .1rem;\n    background-color: #000;\n}\n.head__right .link[data-v-fe35d198]:last-child::before{\n    content: none;\n}\n.head__center[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n    height: 6rem ;\n}\n.logo__wrapper .text__logo[data-v-fe35d198]{\n    font-size: 2.3rem;\n    font-weight: 700;\n    letter-spacing: .1rem;\n    height: 100%;\n}\n.logo__wrapper .text__color--green[data-v-fe35d198]{\n    color: green\n}\n.head__center--links[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    width: 53rem;\n    height: 100%;\n    margin-right: -9rem !important;\n}\n.head__center--links .link[data-v-fe35d198]{\n    font-size: 1.6rem;\n    list-style: none;\n    font-weight: 700\n}\n.head__center--right[data-v-fe35d198]{\n    width: 28rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    height: 100%\n}\n.head__center--right .form__group[data-v-fe35d198]{\n    background-color: #F5F5F5;\n    width: 18rem;\n    height: 60%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 1rem;\n    border-radius: 2rem;\n}\n.form__group .search__icon[data-v-fe35d198]{\n    height: 2.1rem;\n    width: 2.1rem;\n    margin-right: 1.3rem\n}\n.form__group .search__input[data-v-fe35d198]{\n    flex: 1;\n    width: 10rem;\n    border: none;\n    outline: none;\n    background-color:#F5F5F5\n}\n.head__center--actions[data-v-fe35d198]{\n    display: flex;\n    justify-content:space-between;\n    align-items: center;\n    width: 7rem;\n}\n.actions__icon[data-v-fe35d198]{\n    height: 2.4rem;\n    width: 2.4rem\n}\n.head__bottom[data-v-fe35d198]{\n    position: relative !important;\n    height: 5.8rem;\n    background-color: #F5F5F5;\n    display: flex;;\n    align-items: center;\n    justify-content: center;\n    border-bottom: 1px solid #E5E5E5;\n}\n.head__bottom .info[data-v-fe35d198]{\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content:space-around;\n    text-align: center;\n}\n.info__title[data-v-fe35d198]{\n    font-size: 1.4rem\n}\n.info__link[data-v-fe35d198]{\n    font-size: 1.2rem;\n    color: #000;\n}\n\n/* main */\n.main[data-v-fe35d198]{\n    /* background-color: blue; */\n    height: 110.2rem;\n    width:100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n}\n.main .image__wrapper[data-v-fe35d198]{\n    /* background-color:red; */\n    height: 80rem;\n    width: 100%;\n}\n.main .image__wrapper .banner__image[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n}\n.fig-caption[data-v-fe35d198]{\n    /* background-color: yellow; */\n    flex: 1;\n    width: 80%;\n    padding: 2rem 0;\n    display: flex;\n    flex-direction:column;\n    align-items: center;\n}\n.fig-caption .fig__passion--text__title[data-v-fe35d198]{\n    font-size: 6rem;\n    font-weight: bold;\n    text-align: center;\n    text-transform: uppercase;\n    letter-spacing: -.2rem;\n}\n.fig__passion--text__subtitle[data-v-fe35d198]{\n    text-align: center;\n    font-size: 1.5rem;\n}\n.buttons__wrapper[data-v-fe35d198]{\n    margin-top: -6rem;\n    /* background-color: red; */\n    height: 6rem;\n    width:22rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: flex-start\n}\nbutton[data-v-fe35d198]{\n    outline: none;\n    border: none;\n    padding:1rem 2.5rem;\n    background-color: #000;\n    color: #fff;\n    border-radius: 99999px;\n    font-size: 1.5rem;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-fe35d198]{\n    min-height: 100vh;\n}\n.navbar[data-v-fe35d198]{\n    height: 9.6rem;\n    width: 100%;\n    position: relative !important;\n}\n.head__top[data-v-fe35d198]{\n    height: 3.6rem;\n    background-color: #F5F5F5;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n}\n.head__left[data-v-fe35d198]{\n    height: 100%;\n    display: flex;\n    align-items: center;\n    width: 7.2rem;\n    justify-content:space-between\n}\n.head__left .head__left--image[data-v-fe35d198]{\n    height: 2.2rem;\n    width:  2.2rem;\n}\n.head__right[data-v-fe35d198]{\n    height: 100%;\n    display: flex;\n    align-items: center;\n    width: 7.2rem;\n    justify-content:space-between;\n    width: 22.5rem;\n}\n.head__right .link[data-v-fe35d198]{\n    position: relative;\n    list-style: none;\n    font-size: 1.2rem;\n    font-weight: bold;\n}\n.head__right .link[data-v-fe35d198]::before{\n    content: \"\";\n    position: absolute;\n    right: -1.2rem;\n    top: 0;\n    bottom: 0;\n    width: .1rem;\n    background-color: #000;\n}\n.head__right .link[data-v-fe35d198]:last-child::before{\n    content: none;\n}\n.head__center[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n    height: 6rem ;\n}\n.logo__wrapper .text__logo[data-v-fe35d198]{\n    font-size: 2.3rem;\n    font-weight: 700;\n    letter-spacing: .1rem;\n    height: 100%;\n}\n.logo__wrapper .text__color--green[data-v-fe35d198]{\n    color: green\n}\n.head__center--links[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    width: 53rem;\n    height: 100%;\n    margin-right: -9rem !important;\n}\n.head__center--links .link[data-v-fe35d198]{\n    font-size: 1.6rem;\n    list-style: none;\n    font-weight: 700\n}\n.head__center--right[data-v-fe35d198]{\n    width: 28rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    height: 100%\n}\n.head__center--right .form__group[data-v-fe35d198]{\n    background-color: #F5F5F5;\n    width: 18rem;\n    height: 60%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 1rem;\n    border-radius: 2rem;\n}\n.form__group .search__icon[data-v-fe35d198]{\n    height: 2.1rem;\n    width: 2.1rem;\n    margin-right: 1.3rem\n}\n.form__group .search__input[data-v-fe35d198]{\n    flex: 1;\n    width: 10rem;\n    border: none;\n    outline: none;\n    background-color:#F5F5F5\n}\n.head__center--actions[data-v-fe35d198]{\n    display: flex;\n    justify-content:space-between;\n    align-items: center;\n    width: 7.5rem;\n}\n.actions__icon[data-v-fe35d198]{\n    height: 2.6rem;\n    width: 2.6rem\n}\n.actions__icon--bag[data-v-fe35d198]{\n    height: 3.7rem;\n    width: 3.8rem\n}\n.head__bottom[data-v-fe35d198]{\n    position: relative !important;\n    height: 5.8rem;\n    background-color: #F5F5F5;\n    display: flex;;\n    align-items: center;\n    justify-content: center;\n    border-bottom: 1px solid #E5E5E5;\n}\n.head__bottom .info[data-v-fe35d198]{\n    position: relative !important;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content:space-around;\n    text-align: center;\n}\n.info__title[data-v-fe35d198]{\n    font-size: 1.4rem\n}\n.info__link[data-v-fe35d198]{\n    font-size: 1.2rem;\n    color: #000;\n}\n\n/* main */\n.main[data-v-fe35d198]{\n    margin-top: 5.8rem;\n    /* background-color: blue; */\n    height: 110.2rem;\n    width:100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n}\n.main .image__wrapper[data-v-fe35d198]{\n    height: 80rem;\n    width: 100%;\n}\n.main .image__wrapper .banner__image[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n}\n.fig-caption[data-v-fe35d198]{\n    flex: 1;\n    width: 80%;\n    padding: 2rem 0;\n    display: flex;\n    flex-direction:column;\n    align-items: center;\n}\n.fig-caption .fig__passion--text__title[data-v-fe35d198]{\n    font-size: 6rem;\n    font-weight: bold;\n    text-align: center;\n    text-transform: uppercase;\n    letter-spacing: -.2rem;\n}\n.fig__passion--text__subtitle[data-v-fe35d198]{\n    text-align: center;\n    font-size: 1.5rem;\n}\n.buttons__wrapper[data-v-fe35d198]{\n    margin-top: -6rem;\n    height: 7.5rem;\n    width:22.5rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: flex-start;\n}\nbutton[data-v-fe35d198]{\n    outline: none;\n    border: none;\n    padding:1rem 2.5rem;\n    background-color: #000;\n    color: #fff;\n    border-radius: 99999px;\n    font-size: 1.5rem;\n}\n\n/* best__sale */\n.best__sale[data-v-fe35d198]{\n    margin-top: 3rem;\n    padding: 0 4.5rem;\n    height: 64.556rem;\n    display: flex;\n    flex-direction: column;\n}\n.best__sale--title[data-v-fe35d198]{\n    font-size: 2.4rem;\n    margin-bottom: 2rem;\n}\n.best__sale .card__wrapper--row[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n}\n.card__wrapper--row .card[data-v-fe35d198]{\n    height: 100%;\n    width: 38.1rem;\n    display:flex;\n    flex-direction: column;\n    justify-content:space-between;\n}\n.card .card__image__wrapper[data-v-fe35d198]{\n    height: 47.3rem;\n    width: 100%;\n}\n.card__image__wrapper .card__image[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n    -o-object-fit: contain;\n       object-fit: contain;\n}\n.card__footer[data-v-fe35d198]{\n    height: 10rem;\n    padding-top: 3rem;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    padding-bottom: 2rem\n}\n.card__footer .card__name[data-v-fe35d198]{\n    font-size: 1.9rem\n}\n.card__footer .card__link[data-v-fe35d198]{\n    position: relative;\n    font-size: 1.5rem;\n    text-decoration: none;\n    color: #000\n}\n.card__footer .card__link[data-v-fe35d198]::before{\n    content: \"\";\n    position: absolute;\n    bottom: -.2rem;\n    left: 0;\n    right: 0;\n    width:5.2rem;\n    height: .1rem;\n    background-color: #000\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -38132,14 +38164,14 @@ var staticRenderFns = [
             _c("img", {
               staticClass: "head__left--image",
               attrs: {
-                src: "https://img.icons8.com/ios/50/000000/air-jordan.png"
+                src: "https://img.icons8.com/android/24/000000/plus.png"
               }
             }),
             _vm._v(" "),
             _c("img", {
               staticClass: "head__left--image",
               attrs: {
-                src: "https://img.icons8.com/ios/40/000000/categorize.png"
+                src: "https://img.icons8.com/ios-filled/26/000000/marker.png"
               }
             })
           ]),
@@ -38156,9 +38188,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "head__center" }, [
           _c("div", { staticClass: "logo__wrapper" }, [
             _c("span", { staticClass: "text__logo" }, [_vm._v("WI")]),
-            _c("span", { staticClass: "text__logo text__color--green" }, [
-              _vm._v("SHOP")
-            ])
+            _c("span", { staticClass: "text__logo" }, [_vm._v("SHOP")])
           ]),
           _vm._v(" "),
           _c("ul", { staticClass: "head__center--links" }, [
@@ -38199,11 +38229,8 @@ var staticRenderFns = [
               }),
               _vm._v(" "),
               _c("img", {
-                staticClass: "actions__icon",
-                attrs: {
-                  src:
-                    "https://img.icons8.com/ios/50/000000/shopping-bag--v1.png"
-                }
+                staticClass: "actions__icon--bag",
+                attrs: { src: "/images/bag-cart.png" }
               })
             ])
           ])
@@ -38216,7 +38243,7 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("a", { staticClass: "info__link", attrs: { href: "" } }, [
-              _vm._v("S'inscrire")
+              _vm._v("Inscrivez-vous.")
             ])
           ])
         ])
@@ -38254,6 +38281,83 @@ var staticRenderFns = [
           _c("button", { staticClass: "button" }, [_vm._v("Acheter")]),
           _vm._v(" "),
           _c("button", { staticClass: "button" }, [_vm._v("Explorer")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "best__sale" }, [
+        _c("h1", { staticClass: "best__sale--title" }, [
+          _vm._v("Les meilleurs ventes")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card__wrapper--row" }, [
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card__image__wrapper" }, [
+              _c("img", {
+                staticClass: "card__image",
+                attrs: {
+                  src:
+                    "https://static.nike.com/a/images/f_auto/dpr_2.0/w_379,c_limit/342a7c00-a29f-40d1-a38b-70d1f029bd7a/nike-just-do-it.jpg",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card__footer" }, [
+              _c("h1", { staticClass: "card__name" }, [
+                _vm._v("Air Max For Men")
+              ]),
+              _vm._v(" "),
+              _c("a", { staticClass: "card__link", attrs: { href: "" } }, [
+                _vm._v("Acheter")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card__image__wrapper" }, [
+              _c("img", {
+                staticClass: "card__image",
+                attrs: {
+                  src:
+                    "https://static.nike.com/a/images/f_auto/dpr_2.0/w_379,c_limit/e4f4dd72-3e15-453a-874b-4b9cf988a10f/nike-just-do-it.jpg",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card__footer" }, [
+              _c("h1", { staticClass: "card__name" }, [
+                _vm._v("Air Max For Men")
+              ]),
+              _vm._v(" "),
+              _c("a", { staticClass: "card__link", attrs: { href: "" } }, [
+                _vm._v("Acheter")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card__image__wrapper" }, [
+              _c("img", {
+                staticClass: "card__image",
+                attrs: {
+                  src:
+                    "https://static.nike.com/a/images/f_auto/dpr_2.0/w_379,c_limit/72ee4842-81db-48e3-bb63-cab3caf7aa45/nike-just-do-it.jpg",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card__footer" }, [
+              _c("h1", { staticClass: "card__name" }, [
+                _vm._v("Air Max For Men")
+              ]),
+              _vm._v(" "),
+              _c("a", { staticClass: "card__link", attrs: { href: "" } }, [
+                _vm._v("Acheter")
+              ])
+            ])
+          ])
         ])
       ])
     ])

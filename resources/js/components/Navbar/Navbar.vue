@@ -3,8 +3,8 @@
         <div class="navbar">
             <div class='head__top'>
                 <div class=head__left>
-                    <img class="head__left--image" src="https://img.icons8.com/ios/50/000000/air-jordan.png"/>
-                    <img class="head__left--image" src="https://img.icons8.com/ios/40/000000/categorize.png"/>
+                    <img class="head__left--image" src="https://img.icons8.com/android/24/000000/plus.png"/>
+                    <img class="head__left--image" src="https://img.icons8.com/ios-filled/26/000000/marker.png"/>
                 </div>
                 <ul class='head__right'>
                     <li class="link">Aide</li>
@@ -14,7 +14,7 @@
             </div>
             <div class="head__center">
                 <div class="logo__wrapper">
-                    <span class='text__logo'>WI</span><span class="text__logo text__color--green">SHOP</span>
+                    <span class='text__logo'>WI</span><span class="text__logo">SHOP</span>
                 </div>
                 <ul class="head__center--links">
                 <li class=link>Nouveautés</li>  
@@ -31,14 +31,14 @@
                     </div>
                     <div class='head__center--actions'>
                         <img class="actions__icon" src="https://img.icons8.com/metro/26/000000/like.png"/>
-                        <img class="actions__icon" src="https://img.icons8.com/ios/50/000000/shopping-bag--v1.png"/>
+                        <img class="actions__icon--bag" src="/images/bag-cart.png"/>
                     </div>
                 </div>
             </div>
             <div class="head__bottom">
                 <div class="info">
                     <h1 class='info__title'>Livraison gratuite & Retours gratuits sous 60 jours</h1>
-                    <a class='info__link' href="">S'inscrire</a>
+                    <a class='info__link' href="">Inscrivez-vous.</a>
                 </div>
             </div>
         </div>
@@ -57,6 +57,38 @@
                 <button class="button">Explorer</button>
             </div>
         </main>
+        <section class='best__sale'>
+            <h1 class='best__sale--title'>Les meilleurs ventes</h1>
+            <div class="card__wrapper--row">
+                <div class="card">
+                    <div class="card__image__wrapper">
+                        <img class='card__image' src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_379,c_limit/342a7c00-a29f-40d1-a38b-70d1f029bd7a/nike-just-do-it.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                        <h1 class="card__name">Air Max For Men</h1>
+                        <a href="" class="card__link">Acheter</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__image__wrapper">
+                        <img class='card__image' src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_379,c_limit/e4f4dd72-3e15-453a-874b-4b9cf988a10f/nike-just-do-it.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                        <h1 class="card__name">Air Max For Men</h1>
+                        <a href="" class="card__link">Acheter</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__image__wrapper">
+                        <img class='card__image' src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_379,c_limit/72ee4842-81db-48e3-bb63-cab3caf7aa45/nike-just-do-it.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                        <h1 class="card__name">Air Max For Men</h1>
+                        <a href="" class="card__link">Acheter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     
 </template>
@@ -69,10 +101,13 @@ export default {
 
 
 <style scoped>
+    .container{
+        min-height: 100vh;
+    }
     .navbar{
-        position: relative;
         height: 9.6rem;
         width: 100%;
+        position: relative !important;
     }
 
     .head__top{
@@ -195,12 +230,16 @@ export default {
         display: flex;
         justify-content:space-between;
         align-items: center;
-        width: 7rem;
+        width: 7.5rem;
     }
 
     .actions__icon{
-        height: 2.4rem;
-        width: 2.4rem
+        height: 2.6rem;
+        width: 2.6rem
+    }
+    .actions__icon--bag{
+        height: 3.7rem;
+        width: 3.8rem
     }
 
     .head__bottom{
@@ -215,6 +254,7 @@ export default {
 
 
     .head__bottom .info{
+        position: relative !important;
         width: 100%;
         height: 100%;
         display: flex;
@@ -233,6 +273,7 @@ export default {
 
     /* main */
     .main{
+        margin-top: 5.8rem;
         /* background-color: blue; */
         height: 110.2rem;
         width:100%;
@@ -243,7 +284,6 @@ export default {
         padding: 0 4.5rem;
     }
     .main .image__wrapper{
-        /* background-color:red; */
         height: 80rem;
         width: 100%;
     }
@@ -254,7 +294,6 @@ export default {
     }
 
     .fig-caption{
-        /* background-color: yellow; */
         flex: 1;
         width: 80%;
         padding: 2rem 0;
@@ -278,12 +317,11 @@ export default {
 
     .buttons__wrapper{
         margin-top: -6rem;
-        /* background-color: red; */
-        height: 6rem;
-        width:22rem;
+        height: 7.5rem;
+        width:22.5rem;
         display: flex;
         justify-content: space-between;
-        align-items: flex-start
+        align-items: flex-start;
     }
     button{
         outline: none;
@@ -293,5 +331,72 @@ export default {
         color: #fff;
         border-radius: 99999px;
         font-size: 1.5rem;
+    }
+
+    /* best__sale */
+    .best__sale{
+        margin-top: 3rem;
+        padding: 0 4.5rem;
+        height: 64.556rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .best__sale--title{
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+    }
+    .best__sale .card__wrapper--row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card__wrapper--row .card{
+        height: 100%;
+        width: 38.1rem;
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+
+    .card .card__image__wrapper{
+        height: 47.3rem;
+        width: 100%;
+    }
+
+    .card__image__wrapper .card__image{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .card__footer{
+        height: 10rem;
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 2rem
+    }
+
+    .card__footer .card__name{
+        font-size: 1.9rem
+    }
+
+    .card__footer .card__link{
+        position: relative;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #000
+    }
+
+    .card__footer .card__link::before{
+        content: "";
+        position: absolute;
+        bottom: -.2rem;
+        left: 0;
+        right: 0;
+        width:5.2rem;
+        height: .1rem;
+        background-color: #000
     }
 </style>

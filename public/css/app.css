@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica.otf'), url('../fonts/HelveticaLTStd-BlkCond.otf'), url('../fonts/HelveticaLTStd-BlkCondObl.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  font-size: 62.5%;
+  font-family:  Helvetica, "open sans";
+}

@@ -130,6 +130,208 @@
             </div>
         </section>
 
+        <section class='lastest__greatest'>
+            <h1 class="lastest__greatest--title">Les derniéres et les meilleures</h1>
+            <div class="row">
+                <div class="card">
+                    <div class="card__image__wrapper">
+                        <img class="card__image" src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/w_379,c_limit/10c955b6-ea70-4709-a902-67b124f71168/air-max-plus-mens-shoe-GNkkTS.png" alt="">
+                    </div>
+                    <div class="card__footer">
+                        <div class="footer__info">
+                            <h1 class='name'>Nike Air Max plus</h1>
+                            <span class='category'>Men's Shoe</span>
+                        </div>
+                        <div class="footer__price">
+                            <span class='price'>$1600</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__image__wrapper">
+                        <img class="card__image" src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/w_379,c_limit/10c955b6-ea70-4709-a902-67b124f71168/air-max-plus-mens-shoe-GNkkTS.png" alt="">
+                    </div>
+                    <div class="card__footer">
+                        <div class="footer__info">
+                            <h1 class='name'>Nike Air Max plus</h1>
+                            <p class='category'>Men's Shoe</p>
+                        </div>
+                        <div class="footer__price">
+                            <span class='price'>$1600</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__image__wrapper">
+                        <img class="card__image" src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/w_379,c_limit/10c955b6-ea70-4709-a902-67b124f71168/air-max-plus-mens-shoe-GNkkTS.png" alt="">
+                    </div>
+                    <div class="card__footer">
+                        <div class="footer__info">
+                            <h1 class='name'>Nike Air Max plus</h1>
+                            <p class='category'>Men's Shoe</p>
+                        </div>
+                        <div class="footer__price">
+                            <span class='price'>$1600</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__image__wrapper">
+                        <img class="card__image" src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/w_379,c_limit/10c955b6-ea70-4709-a902-67b124f71168/air-max-plus-mens-shoe-GNkkTS.png" alt="">
+                    </div>
+                    <div class="card__footer">
+                        <div class="footer__info">
+                            <h1 class='name'>Nike Air Max plus</h1>
+                            <p class='category'>Men's Shoe</p>
+                        </div>
+                        <div class="footer__price">
+                            <span class='price'>$1600</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trending__now">
+            <h1 class='for__the_course--title'>À la mode</h1>
+            <div class="content">
+                <div class="left__side__wrapper">
+                    <img class="image__inner" src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_576,c_limit/81cdea1d-7617-49e1-a6ea-0cbbddb4d1db/nike-just-do-it.jpg" alt="">
+                    <div class="floating">
+                        <h1 class="floating__title white">Essentiels de golf pour femmes</h1>
+                        <button class="floating__button bg-white">Shop</button>
+                    </div>
+                </div>
+                <div class="right__side__wrapper">
+                    <img class="image__inner" src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_576,c_limit/5cbd41d3-0a17-4b70-bc92-42aa18918263/nike-just-do-it.jpg" alt="">
+                    <div class="floating">
+                        <h1 class="floating__title black">Essentiels de golf pour hommes</h1>
+                        <button class="floating__button bg__black">Shop</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="spring__essentials">
+            <h1 class='best__sale--title'>Articles recommandés</h1>
+            <div class="card__wrapper--row">
+                <div class="card">
+                    <div class="card__image__wrapper">
+                        <img class='card__image' src="https://static.nike.com/a/images/f_auto/dpr_2.0/h_473,c_limit/ad8557e2-d8dc-4688-9cdd-a9ff3b050997/nike-just-do-it.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                        <h1 class="card__name">Shorts</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__image__wrapper">
+                        <img class='card__image' src="https://static.nike.com/a/images/f_auto/dpr_2.0/h_473,c_limit/182d9ef1-2dcc-4b3a-a637-8d5d00263cd1/nike-just-do-it.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                        <h1 class="card__name">Jackets</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__image__wrapper">
+                        <img class='card__image' src="https://static.nike.com/a/images/f_auto/dpr_2.0/h_473,c_limit/139fbdbf-a60a-46f6-bdb9-98525b8e404b/nike-just-do-it.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                        <h1 class="card__name">Tees & Tanks</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class='members__benefits'>
+            <h1 class="members__benefits--title">Avantages des membres</h1>
+            <div class="members__banner">
+                <img class="members__banner--image" src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_1168,c_limit/60475bc5-7b0a-457a-a456-000c081ec429/nike-just-do-it.jpg" alt="">
+                <div class="floating">
+                    <div class="text">
+                        <h1 class="text__title">Things are better as a Nike Member. Get first and exclusive access to the newest styles &<br/> innovation, free shipping, birthday rewards and more.</h1>
+                    </div>
+                    <div class="button">
+                        <button>Inscription</button>
+                        <button>Connexion</button>
+                    </div>
+                </div>
+            </div>
+            <div class="members__benefits__cards__wrapper">
+                <div class="card">
+                    <div class="card__image__wrapper">
+                        <img class="image" src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_379,c_limit/8cf41826-2f64-4738-8f8d-28268157af64/nike-just-do-it.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                        <h1 class="title">Exclusive Nike Shopping Perks</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__image__wrapper">
+                        <img class="image" src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_379,c_limit/2aaa646d-153c-42d7-94cf-5d21b0fe39ee/nike-just-do-it.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                        <h1 class="title">Exclusive Nike Shopping Perks</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__image__wrapper">
+                        <img class="image" src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_379,c_limit/6956f392-0691-48ad-ab10-be6db4433a82/nike-just-do-it.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                        <h1 class="title">Exclusive Nike Shopping Perks</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__image__wrapper">
+                        <img class="image" src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_379,c_limit/2858f95d-02c0-4b36-90b2-842313d99b5e/nike-just-do-it.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                        <h1 class="title">Exclusive Nike Shopping Perks</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class='categories'>
+            <div class="categories__wrapper">
+                <div class="category">
+                    <h1 class="title">Featured</h1>
+                    <div class="children__categories">
+                        <h1 class='children'>Aire force 1</h1>
+                        <h1 class='children'>Jordan 1</h1>
+                        <h1 class='children'>Air Max 2090</h1>
+                        <h1 class='children'>Air Max 270 </h1>
+                    </div>
+                </div>
+                <div class="category">
+                    <h1 class='title'>Shoes</h1>
+                    <div class="children__categories">
+                        <h1 class='children'>All Shoes</h1>
+                        <h1 class='children'>Jordan Shoes</h1>
+                        <h1 class='children'>Running Shoes</h1>
+                        <h1 class='children'>Basketball Shoes</h1>
+                    </div>
+                </div>
+                <div class="category">
+                    <h1 class='title'>Clothing</h1>
+                    <div class="children__categories">
+                        <h1 class='children'>All Clothing</h1>
+                        <h1 class='children'>Tops & T-Shirts</h1>
+                        <h1 class='children'>Shops</h1>
+                        <h1 class='children'>Hoodies & Pullovers</h1>
+                    </div>
+                </div>
+                <div class="category">
+                    <h1 class='title'>Kids'</h1>
+                    <div class="children__categories">
+                        <h1 class='children'>Infant & Toddler Shoes</h1>
+                        <h1 class='children'>Kid's Shoes</h1>
+                        <h1 class='children'>Kids' BasketBall Shoes</h1>
+                        <h1 class='children'>kids' Running Shoes</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     
 </template>
@@ -524,5 +726,282 @@ export default {
     .bg-white{
         background-color: #fff;
         color: #000
+    }
+
+
+    /* lastest__greatest */
+    .lastest__greatest{
+        margin-top: 13rem;
+        height: 53.466rem;
+        /* background-color: red; */
+        padding: 0 0 0 4.5rem ;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column
+    }
+
+    .lastest__greatest--title{
+        font-size: 2.4rem;
+    }
+
+    .lastest__greatest .row{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        overflow-x: scroll;
+    }
+
+    .lastest__greatest .row .card{
+        width: 80%;
+        height: 92%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .row .card .card__image__wrapper{
+        width: 37.866rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 37.866rem;
+    }
+
+    .row .card .card__image__wrapper .card__image{
+        height: 100%;
+        width: 100%;
+        object-fit: contain
+    }
+
+    .row .card .card__footer{
+        width: 100%;
+        /* background-color: yellow; */
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        height: 10%;
+        align-items: center
+    }
+
+    .card__footer .footer__info{
+        height: 4.5rem;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+    .footer__info .category{
+        font-size:1.3rem;
+        color: #757575
+    }
+
+    .row .card .card__footer .footer__info .name{
+        font-size: 1.6rem
+    }
+
+    .row .card .card__footer .footer__price{
+        width: 30%;
+        height: 4.5rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center
+    }
+
+    .footer__price .price{
+        font-size: 1.6rem
+    }
+
+    /* Trending now */
+        .trending__now{
+        margin-top: 5rem;
+        padding: 0 4.5rem;
+        height: 60.55rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .for__the_course--title{
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .trending__now .content{
+        position: relative;
+        height: 100%;
+        widows: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 2rem
+    }
+
+    .floating__title .black{
+        color: #0000
+    }
+
+    .bg__black{
+        background-color: #000
+    }
+
+    /* spring essentials */
+    .spring__essentials{
+        margin-top: 15rem;
+        padding: 0 4.5rem;
+        height: 60.556rem;
+        display: flex;
+        flex-direction: column;
+        /* background-color:  red */
+    }
+
+    .best__sale--title{
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+    }
+    .spring__essentials .card__wrapper--row{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    /* Members Benefits */
+    .members__benefits{
+        margin-top: 5rem;
+        height: 85.427rem;
+    }
+
+    .members__benefits--title{
+        padding: 0 4.5rem;
+        font-size: 2.4rem;
+        margin-bottom: 1.5rem
+    }
+    .members__banner{
+        position: relative;
+        padding: 0 4.5rem;
+        height: 43.45rem;
+        margin-bottom: 2rem;
+    }
+
+    .members__banner .floating{
+        top: 74%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width:50%;
+        height: 27%;
+        display: flex;
+        flex-direction:column;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    .floating .text__title{
+        font-size: 1.6rem;
+        text-align: center
+    }
+
+    .floating .button{
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .members__banner .members__banner--image{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .members__benefits .members__benefits__cards__wrapper{
+        padding: 0 0 0 4.5rem;
+        height: 30.027rem;
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        gap: 2rem;
+        width: 100%;
+        overflow-x: scroll
+    }
+
+    .members__benefits__cards__wrapper .card{
+        max-height: 35.227rem;
+        min-width: 37.866rem;
+    }
+
+    .members__benefits__cards__wrapper .card .card__image__wrapper{
+        height: 70%;
+        width: 100%;
+    }
+
+    .card__image__wrapper .image{
+        height: 100%;
+        width: 100%;
+        object-fit: cover
+    }
+    .members__benefits__cards__wrapper .card .card__footer{
+        height: 18%;
+        width: 100%;
+    }
+
+    .members__benefits__cards__wrapper .card .card__footer .title{
+        font-size: 1.6rem
+    }
+
+
+    /* Categories */
+    .categories{
+        margin-top: 5rem;
+        padding: 0 4.5rem;
+        /* background-color: blue; */
+        height: 38.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .categories__wrapper{
+        /* background-color: red; */
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 13rem;
+        align-items: center;
+        gap: 4rem
+    }
+
+    .categories__wrapper .category{
+        /* background-color: yellow; */
+        height: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: flex-start;
+    }
+
+    .category .title{
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+        letter-spacing: .1rem;
+        margin-left: left !important;
+        width: 100%
+    }
+
+    .category .children__categories{
+        height: 60%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 1.5rem
+    }
+
+    .children__categories h1{
+        font-size: 1.6rem;
+        color: #a7a8a8
     }
 </style>

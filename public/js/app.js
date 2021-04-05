@@ -2012,6 +2012,208 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -6622,7 +6824,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-fe35d198]{\n    min-height: 100vh;\n}\n.navbar[data-v-fe35d198]{\n    height: 9.6rem;\n    width: 100%;\n    position: relative !important;\n}\n.head__top[data-v-fe35d198]{\n    height: 3.6rem;\n    background-color: #F5F5F5;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n}\n.head__left[data-v-fe35d198]{\n    height: 100%;\n    display: flex;\n    align-items: center;\n    width: 7.2rem;\n    justify-content:space-between\n}\n.head__left .head__left--image[data-v-fe35d198]{\n    height: 2.2rem;\n    width:  2.2rem;\n}\n.head__right[data-v-fe35d198]{\n    height: 100%;\n    display: flex;\n    align-items: center;\n    width: 7.2rem;\n    justify-content:space-between;\n    width: 22.5rem;\n}\n.head__right .link[data-v-fe35d198]{\n    position: relative;\n    list-style: none;\n    font-size: 1.2rem;\n    font-weight: bold;\n}\n.head__right .link[data-v-fe35d198]::before{\n    content: \"\";\n    position: absolute;\n    right: -1.2rem;\n    top: 0;\n    bottom: 0;\n    width: .1rem;\n    background-color: #000;\n}\n.head__right .link[data-v-fe35d198]:last-child::before{\n    content: none;\n}\n.head__center[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n    height: 6rem ;\n}\n.logo__wrapper .text__logo[data-v-fe35d198]{\n    font-size: 2.3rem;\n    font-weight: 700;\n    letter-spacing: .1rem;\n    height: 100%;\n}\n.logo__wrapper .text__color--green[data-v-fe35d198]{\n    color: green\n}\n.head__center--links[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    width: 53rem;\n    height: 100%;\n    margin-right: -9rem !important;\n}\n.head__center--links .link[data-v-fe35d198]{\n    font-size: 1.6rem;\n    list-style: none;\n    font-weight: 700\n}\n.head__center--right[data-v-fe35d198]{\n    width: 28rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    height: 100%\n}\n.head__center--right .form__group[data-v-fe35d198]{\n    background-color: #F5F5F5;\n    width: 18rem;\n    height: 60%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 1rem;\n    border-radius: 2rem;\n}\n.form__group .search__icon[data-v-fe35d198]{\n    height: 2.1rem;\n    width: 2.1rem;\n    margin-right: 1.3rem\n}\n.form__group .search__input[data-v-fe35d198]{\n    flex: 1;\n    width: 10rem;\n    border: none;\n    outline: none;\n    background-color:#F5F5F5\n}\n.head__center--actions[data-v-fe35d198]{\n    display: flex;\n    justify-content:space-between;\n    align-items: center;\n    width: 7.5rem;\n}\n.actions__icon[data-v-fe35d198]{\n    height: 2.6rem;\n    width: 2.6rem\n}\n.actions__icon--bag[data-v-fe35d198]{\n    height: 3.7rem;\n    width: 3.8rem\n}\n.head__bottom[data-v-fe35d198]{\n    position: relative !important;\n    height: 5.8rem;\n    background-color: #F5F5F5;\n    display: flex;;\n    align-items: center;\n    justify-content: center;\n    border-bottom: 1px solid #E5E5E5;\n}\n.head__bottom .info[data-v-fe35d198]{\n    position: relative !important;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content:space-around;\n    text-align: center;\n}\n.info__title[data-v-fe35d198]{\n    font-size: 1.4rem\n}\n.info__link[data-v-fe35d198]{\n    font-size: 1.2rem;\n    color: #000;\n}\n\n/* main */\n.main[data-v-fe35d198]{\n    margin-top: 5.8rem;\n    /* background-color: blue; */\n    height: 110.2rem;\n    width:100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n}\n.main .image__wrapper[data-v-fe35d198]{\n    height: 80rem;\n    width: 100%;\n}\n.main .image__wrapper .banner__image[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n}\n.fig-caption[data-v-fe35d198]{\n    flex: 1;\n    width: 80%;\n    padding: 2rem 0;\n    display: flex;\n    flex-direction:column;\n    align-items: center;\n}\n.fig-caption .fig__passion--text__title[data-v-fe35d198]{\n    font-size: 6rem;\n    font-weight: bold;\n    text-align: center;\n    text-transform: uppercase;\n    letter-spacing: -.2rem;\n}\n.fig__passion--text__subtitle[data-v-fe35d198]{\n    text-align: center;\n    font-size: 1.5rem;\n}\n.buttons__wrapper[data-v-fe35d198]{\n    margin-top: -6rem;\n    height: 7.5rem;\n    width:22.5rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: flex-start;\n}\nbutton[data-v-fe35d198]{\n    outline: none;\n    border: none;\n    padding:1rem 2.5rem;\n    background-color: #000;\n    color: #fff;\n    border-radius: 99999px;\n    font-size: 1.5rem;\n}\n\n/* best__sale */\n.best__sale[data-v-fe35d198]{\n    margin-top: 3rem;\n    padding: 0 4.5rem;\n    height: 64.556rem;\n    display: flex;\n    flex-direction: column;\n}\n.best__sale--title[data-v-fe35d198]{\n    font-size: 2.4rem;\n    margin-bottom: 2rem;\n}\n.best__sale .card__wrapper--row[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n}\n.card__wrapper--row .card[data-v-fe35d198]{\n    height: 100%;\n    width: 38.1rem;\n    display:flex;\n    flex-direction: column;\n    justify-content:space-between;\n}\n.card .card__image__wrapper[data-v-fe35d198]{\n    height: 47.3rem;\n    width: 100%;\n}\n.card__image__wrapper .card__image[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n    -o-object-fit: contain;\n       object-fit: contain;\n}\n.card__footer[data-v-fe35d198]{\n    height: 10rem;\n    padding-top: 3rem;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    padding-bottom: 2rem\n}\n.card__footer .card__name[data-v-fe35d198]{\n    font-size: 1.9rem\n}\n.card__footer .card__link[data-v-fe35d198]{\n    position: relative;\n    font-size: 1.5rem;\n    text-decoration: none;\n    color: #000\n}\n.card__footer .card__link[data-v-fe35d198]::before{\n    content: \"\";\n    position: absolute;\n    bottom: -.2rem;\n    left: 0;\n    right: 0;\n    width:5.2rem;\n    height: .1rem;\n    background-color: #000\n}\n\n/* for__the__course */\n.for__the__course[data-v-fe35d198]{\n    margin-top: 3.5rem;\n    padding: 0 4.5rem;\n    height: 60.55rem;\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n}\n.for__the_course--title[data-v-fe35d198]{\n    font-size: 2.4rem;\n    margin-bottom: 2rem;\n}\n.for__the__course .content[data-v-fe35d198]{\n    position: relative;\n    height: 100%;\n    widows: 100%;\n    display: flex;\n    justify-content: center;\n    gap: 2rem\n}\n.left__side__wrapper[data-v-fe35d198],\n.right__side__wrapper[data-v-fe35d198]{\n    height: 100%;\n    position: relative;\n}\n.left__side__wrapper .image__inner[data-v-fe35d198],\n.right__side__wrapper .image__inner[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n    -o-object-fit: cover;\n       object-fit: cover;\n    position: relative;\n}\n.right__side__wrapper .floating[data-v-fe35d198],\n.left__side__wrapper .floating[data-v-fe35d198]{\n    position: absolute;\n    top: 82%;\n    /* background-color: red; */\n    padding-left: 3rem;\n    width: 55%;\n    height: 8rem;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: flex-start;\n}\n.floating__title[data-v-fe35d198]{\n    font-size: 1.9rem\n}\n\n/* featured style */\n.featured__style[data-v-fe35d198]{\n    margin-top: 15rem;\n    padding: 0 4.5rem;\n    height: 64.556rem;\n    display: flex;\n    flex-direction: column;\n}\n.featured__style .content[data-v-fe35d198]{\n    position: relative;\n    height: 100%;\n    widows: 100%;\n    display: flex;\n    justify-content: center;\n    gap: 2rem\n}\n.white[data-v-fe35d198]{\n    color: #fff;\n}\n.bg-white[data-v-fe35d198]{\n    background-color: #fff;\n    color: #000\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-fe35d198]{\n    min-height: 100vh;\n}\n.navbar[data-v-fe35d198]{\n    height: 9.6rem;\n    width: 100%;\n    position: relative !important;\n}\n.head__top[data-v-fe35d198]{\n    height: 3.6rem;\n    background-color: #F5F5F5;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n}\n.head__left[data-v-fe35d198]{\n    height: 100%;\n    display: flex;\n    align-items: center;\n    width: 7.2rem;\n    justify-content:space-between\n}\n.head__left .head__left--image[data-v-fe35d198]{\n    height: 2.2rem;\n    width:  2.2rem;\n}\n.head__right[data-v-fe35d198]{\n    height: 100%;\n    display: flex;\n    align-items: center;\n    width: 7.2rem;\n    justify-content:space-between;\n    width: 22.5rem;\n}\n.head__right .link[data-v-fe35d198]{\n    position: relative;\n    list-style: none;\n    font-size: 1.2rem;\n    font-weight: bold;\n}\n.head__right .link[data-v-fe35d198]::before{\n    content: \"\";\n    position: absolute;\n    right: -1.2rem;\n    top: 0;\n    bottom: 0;\n    width: .1rem;\n    background-color: #000;\n}\n.head__right .link[data-v-fe35d198]:last-child::before{\n    content: none;\n}\n.head__center[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n    height: 6rem ;\n}\n.logo__wrapper .text__logo[data-v-fe35d198]{\n    font-size: 2.3rem;\n    font-weight: 700;\n    letter-spacing: .1rem;\n    height: 100%;\n}\n.logo__wrapper .text__color--green[data-v-fe35d198]{\n    color: green\n}\n.head__center--links[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    width: 53rem;\n    height: 100%;\n    margin-right: -9rem !important;\n}\n.head__center--links .link[data-v-fe35d198]{\n    font-size: 1.6rem;\n    list-style: none;\n    font-weight: 700\n}\n.head__center--right[data-v-fe35d198]{\n    width: 28rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    height: 100%\n}\n.head__center--right .form__group[data-v-fe35d198]{\n    background-color: #F5F5F5;\n    width: 18rem;\n    height: 60%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 1rem;\n    border-radius: 2rem;\n}\n.form__group .search__icon[data-v-fe35d198]{\n    height: 2.1rem;\n    width: 2.1rem;\n    margin-right: 1.3rem\n}\n.form__group .search__input[data-v-fe35d198]{\n    flex: 1;\n    width: 10rem;\n    border: none;\n    outline: none;\n    background-color:#F5F5F5\n}\n.head__center--actions[data-v-fe35d198]{\n    display: flex;\n    justify-content:space-between;\n    align-items: center;\n    width: 7.5rem;\n}\n.actions__icon[data-v-fe35d198]{\n    height: 2.6rem;\n    width: 2.6rem\n}\n.actions__icon--bag[data-v-fe35d198]{\n    height: 3.7rem;\n    width: 3.8rem\n}\n.head__bottom[data-v-fe35d198]{\n    position: relative !important;\n    height: 5.8rem;\n    background-color: #F5F5F5;\n    display: flex;;\n    align-items: center;\n    justify-content: center;\n    border-bottom: 1px solid #E5E5E5;\n}\n.head__bottom .info[data-v-fe35d198]{\n    position: relative !important;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content:space-around;\n    text-align: center;\n}\n.info__title[data-v-fe35d198]{\n    font-size: 1.4rem\n}\n.info__link[data-v-fe35d198]{\n    font-size: 1.2rem;\n    color: #000;\n}\n\n/* main */\n.main[data-v-fe35d198]{\n    margin-top: 5.8rem;\n    /* background-color: blue; */\n    height: 110.2rem;\n    width:100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 4.5rem;\n}\n.main .image__wrapper[data-v-fe35d198]{\n    height: 80rem;\n    width: 100%;\n}\n.main .image__wrapper .banner__image[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n}\n.fig-caption[data-v-fe35d198]{\n    flex: 1;\n    width: 80%;\n    padding: 2rem 0;\n    display: flex;\n    flex-direction:column;\n    align-items: center;\n}\n.fig-caption .fig__passion--text__title[data-v-fe35d198]{\n    font-size: 6rem;\n    font-weight: bold;\n    text-align: center;\n    text-transform: uppercase;\n    letter-spacing: -.2rem;\n}\n.fig__passion--text__subtitle[data-v-fe35d198]{\n    text-align: center;\n    font-size: 1.5rem;\n}\n.buttons__wrapper[data-v-fe35d198]{\n    margin-top: -6rem;\n    height: 7.5rem;\n    width:22.5rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: flex-start;\n}\nbutton[data-v-fe35d198]{\n    outline: none;\n    border: none;\n    padding:1rem 2.5rem;\n    background-color: #000;\n    color: #fff;\n    border-radius: 99999px;\n    font-size: 1.5rem;\n}\n\n/* best__sale */\n.best__sale[data-v-fe35d198]{\n    margin-top: 3rem;\n    padding: 0 4.5rem;\n    height: 64.556rem;\n    display: flex;\n    flex-direction: column;\n}\n.best__sale--title[data-v-fe35d198]{\n    font-size: 2.4rem;\n    margin-bottom: 2rem;\n}\n.best__sale .card__wrapper--row[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n}\n.card__wrapper--row .card[data-v-fe35d198]{\n    height: 100%;\n    width: 38.1rem;\n    display:flex;\n    flex-direction: column;\n    justify-content:space-between;\n}\n.card .card__image__wrapper[data-v-fe35d198]{\n    height: 47.3rem;\n    width: 100%;\n}\n.card__image__wrapper .card__image[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n    -o-object-fit: contain;\n       object-fit: contain;\n}\n.card__footer[data-v-fe35d198]{\n    height: 10rem;\n    padding-top: 3rem;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    padding-bottom: 2rem\n}\n.card__footer .card__name[data-v-fe35d198]{\n    font-size: 1.9rem\n}\n.card__footer .card__link[data-v-fe35d198]{\n    position: relative;\n    font-size: 1.5rem;\n    text-decoration: none;\n    color: #000\n}\n.card__footer .card__link[data-v-fe35d198]::before{\n    content: \"\";\n    position: absolute;\n    bottom: -.2rem;\n    left: 0;\n    right: 0;\n    width:5.2rem;\n    height: .1rem;\n    background-color: #000\n}\n\n/* for__the__course */\n.for__the__course[data-v-fe35d198]{\n    margin-top: 3.5rem;\n    padding: 0 4.5rem;\n    height: 60.55rem;\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n}\n.for__the_course--title[data-v-fe35d198]{\n    font-size: 2.4rem;\n    margin-bottom: 2rem;\n}\n.for__the__course .content[data-v-fe35d198]{\n    position: relative;\n    height: 100%;\n    widows: 100%;\n    display: flex;\n    justify-content: center;\n    gap: 2rem\n}\n.left__side__wrapper[data-v-fe35d198],\n.right__side__wrapper[data-v-fe35d198]{\n    height: 100%;\n    position: relative;\n}\n.left__side__wrapper .image__inner[data-v-fe35d198],\n.right__side__wrapper .image__inner[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n    -o-object-fit: cover;\n       object-fit: cover;\n    position: relative;\n}\n.right__side__wrapper .floating[data-v-fe35d198],\n.left__side__wrapper .floating[data-v-fe35d198]{\n    position: absolute;\n    top: 82%;\n    /* background-color: red; */\n    padding-left: 3rem;\n    width: 55%;\n    height: 8rem;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: flex-start;\n}\n.floating__title[data-v-fe35d198]{\n    font-size: 1.9rem\n}\n\n/* featured style */\n.featured__style[data-v-fe35d198]{\n    margin-top: 15rem;\n    padding: 0 4.5rem;\n    height: 64.556rem;\n    display: flex;\n    flex-direction: column;\n}\n.featured__style .content[data-v-fe35d198]{\n    position: relative;\n    height: 100%;\n    widows: 100%;\n    display: flex;\n    justify-content: center;\n    gap: 2rem\n}\n.white[data-v-fe35d198]{\n    color: #fff;\n}\n.bg-white[data-v-fe35d198]{\n    background-color: #fff;\n    color: #000\n}\n\n\n/* lastest__greatest */\n.lastest__greatest[data-v-fe35d198]{\n    margin-top: 13rem;\n    height: 53.466rem;\n    /* background-color: red; */\n    padding: 0 0 0 4.5rem ;\n    display: flex;\n    justify-content: space-between;\n    flex-direction: column\n}\n.lastest__greatest--title[data-v-fe35d198]{\n    font-size: 2.4rem;\n}\n.lastest__greatest .row[data-v-fe35d198]{\n    height: 100%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    gap: 2rem;\n    overflow-x: scroll;\n}\n.lastest__greatest .row .card[data-v-fe35d198]{\n    width: 80%;\n    height: 92%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n}\n.row .card .card__image__wrapper[data-v-fe35d198]{\n    width: 37.866rem;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 37.866rem;\n}\n.row .card .card__image__wrapper .card__image[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n    -o-object-fit: contain;\n       object-fit: contain\n}\n.row .card .card__footer[data-v-fe35d198]{\n    width: 100%;\n    /* background-color: yellow; */\n    flex-direction: row;\n    display: flex;\n    justify-content: space-between;\n    height: 10%;\n    align-items: center\n}\n.card__footer .footer__info[data-v-fe35d198]{\n    height: 4.5rem;\n    width: 70%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n}\n.footer__info .category[data-v-fe35d198]{\n    font-size:1.3rem;\n    color: #757575\n}\n.row .card .card__footer .footer__info .name[data-v-fe35d198]{\n    font-size: 1.6rem\n}\n.row .card .card__footer .footer__price[data-v-fe35d198]{\n    width: 30%;\n    height: 4.5rem;\n    display: flex;\n    align-items: flex-start;\n    justify-content: center\n}\n.footer__price .price[data-v-fe35d198]{\n    font-size: 1.6rem\n}\n\n/* Trending now */\n.trending__now[data-v-fe35d198]{\n    margin-top: 5rem;\n    padding: 0 4.5rem;\n    height: 60.55rem;\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n}\n.for__the_course--title[data-v-fe35d198]{\n    font-size: 2.4rem;\n    margin-bottom: 2rem;\n}\n.trending__now .content[data-v-fe35d198]{\n    position: relative;\n    height: 100%;\n    widows: 100%;\n    display: flex;\n    justify-content: center;\n    gap: 2rem\n}\n.floating__title .black[data-v-fe35d198]{\n    color: #0000\n}\n.bg__black[data-v-fe35d198]{\n    background-color: #000\n}\n\n/* spring essentials */\n.spring__essentials[data-v-fe35d198]{\n    margin-top: 15rem;\n    padding: 0 4.5rem;\n    height: 60.556rem;\n    display: flex;\n    flex-direction: column;\n    /* background-color:  red */\n}\n.best__sale--title[data-v-fe35d198]{\n    font-size: 2.4rem;\n    margin-bottom: 2rem;\n}\n.spring__essentials .card__wrapper--row[data-v-fe35d198]{\n    display: flex;\n    justify-content: space-between;\n}\n\n\n/* Members Benefits */\n.members__benefits[data-v-fe35d198]{\n    margin-top: 5rem;\n    height: 85.427rem;\n}\n.members__benefits--title[data-v-fe35d198]{\n    padding: 0 4.5rem;\n    font-size: 2.4rem;\n    margin-bottom: 1.5rem\n}\n.members__banner[data-v-fe35d198]{\n    position: relative;\n    padding: 0 4.5rem;\n    height: 43.45rem;\n    margin-bottom: 2rem;\n}\n.members__banner .floating[data-v-fe35d198]{\n    top: 74%;\n    left: 50%;\n    position: absolute;\n    transform: translate(-50%, -50%);\n    width:50%;\n    height: 27%;\n    display: flex;\n    flex-direction:column;\n    justify-content:space-between;\n    align-items: center;\n}\n.floating .text__title[data-v-fe35d198]{\n    font-size: 1.6rem;\n    text-align: center\n}\n.floating .button[data-v-fe35d198]{\n    width: 40%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center\n}\n.members__banner .members__banner--image[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n    -o-object-fit: cover;\n       object-fit: cover;\n}\n.members__benefits .members__benefits__cards__wrapper[data-v-fe35d198]{\n    padding: 0 0 0 4.5rem;\n    height: 30.027rem;\n    display: flex;\n    flex-direction: row;\n    max-width: 100%;\n    gap: 2rem;\n    width: 100%;\n    overflow-x: scroll\n}\n.members__benefits__cards__wrapper .card[data-v-fe35d198]{\n    max-height: 35.227rem;\n    min-width: 37.866rem;\n}\n.members__benefits__cards__wrapper .card .card__image__wrapper[data-v-fe35d198]{\n    height: 70%;\n    width: 100%;\n}\n.card__image__wrapper .image[data-v-fe35d198]{\n    height: 100%;\n    width: 100%;\n    -o-object-fit: cover;\n       object-fit: cover\n}\n.members__benefits__cards__wrapper .card .card__footer[data-v-fe35d198]{\n    height: 18%;\n    width: 100%;\n}\n.members__benefits__cards__wrapper .card .card__footer .title[data-v-fe35d198]{\n    font-size: 1.6rem\n}\n\n\n/* Categories */\n.categories[data-v-fe35d198]{\n    margin-top: 5rem;\n    padding: 0 4.5rem;\n    /* background-color: blue; */\n    height: 38.4rem;\n    display: flex;\n    justify-content: center;\n    align-items: flex-start;\n}\n.categories__wrapper[data-v-fe35d198]{\n    /* background-color: red; */\n    height: 50%;\n    width: 100%;\n    display: flex;\n    justify-content: space-between;\n    padding: 0 13rem;\n    align-items: center;\n    gap: 4rem\n}\n.categories__wrapper .category[data-v-fe35d198]{\n    /* background-color: yellow; */\n    height: 100%;\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    /* align-items: center; */\n    justify-content: flex-start;\n}\n.category .title[data-v-fe35d198]{\n    font-size: 1.6rem;\n    margin-bottom: 2rem;\n    letter-spacing: .1rem;\n    margin-left: left !important;\n    width: 100%\n}\n.category .children__categories[data-v-fe35d198]{\n    height: 60%;\n    display: flex;\n    justify-content: space-between;\n    flex-direction: column;\n    gap: 1.5rem\n}\n.children__categories h1[data-v-fe35d198]{\n    font-size: 1.6rem;\n    color: #a7a8a8\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -38496,6 +38698,416 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("button", { staticClass: "floating__button bg-white" }, [
                 _vm._v("Shop")
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "lastest__greatest" }, [
+        _c("h1", { staticClass: "lastest__greatest--title" }, [
+          _vm._v("Les derniéres et les meilleures")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card__image__wrapper" }, [
+              _c("img", {
+                staticClass: "card__image",
+                attrs: {
+                  src:
+                    "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/w_379,c_limit/10c955b6-ea70-4709-a902-67b124f71168/air-max-plus-mens-shoe-GNkkTS.png",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card__footer" }, [
+              _c("div", { staticClass: "footer__info" }, [
+                _c("h1", { staticClass: "name" }, [
+                  _vm._v("Nike Air Max plus")
+                ]),
+                _vm._v(" "),
+                _c("span", { staticClass: "category" }, [_vm._v("Men's Shoe")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "footer__price" }, [
+                _c("span", { staticClass: "price" }, [_vm._v("$1600")])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card__image__wrapper" }, [
+              _c("img", {
+                staticClass: "card__image",
+                attrs: {
+                  src:
+                    "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/w_379,c_limit/10c955b6-ea70-4709-a902-67b124f71168/air-max-plus-mens-shoe-GNkkTS.png",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card__footer" }, [
+              _c("div", { staticClass: "footer__info" }, [
+                _c("h1", { staticClass: "name" }, [
+                  _vm._v("Nike Air Max plus")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "category" }, [_vm._v("Men's Shoe")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "footer__price" }, [
+                _c("span", { staticClass: "price" }, [_vm._v("$1600")])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card__image__wrapper" }, [
+              _c("img", {
+                staticClass: "card__image",
+                attrs: {
+                  src:
+                    "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/w_379,c_limit/10c955b6-ea70-4709-a902-67b124f71168/air-max-plus-mens-shoe-GNkkTS.png",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card__footer" }, [
+              _c("div", { staticClass: "footer__info" }, [
+                _c("h1", { staticClass: "name" }, [
+                  _vm._v("Nike Air Max plus")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "category" }, [_vm._v("Men's Shoe")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "footer__price" }, [
+                _c("span", { staticClass: "price" }, [_vm._v("$1600")])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card__image__wrapper" }, [
+              _c("img", {
+                staticClass: "card__image",
+                attrs: {
+                  src:
+                    "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/w_379,c_limit/10c955b6-ea70-4709-a902-67b124f71168/air-max-plus-mens-shoe-GNkkTS.png",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card__footer" }, [
+              _c("div", { staticClass: "footer__info" }, [
+                _c("h1", { staticClass: "name" }, [
+                  _vm._v("Nike Air Max plus")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "category" }, [_vm._v("Men's Shoe")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "footer__price" }, [
+                _c("span", { staticClass: "price" }, [_vm._v("$1600")])
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "trending__now" }, [
+        _c("h1", { staticClass: "for__the_course--title" }, [
+          _vm._v("À la mode")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "content" }, [
+          _c("div", { staticClass: "left__side__wrapper" }, [
+            _c("img", {
+              staticClass: "image__inner",
+              attrs: {
+                src:
+                  "https://static.nike.com/a/images/f_auto/dpr_2.0/w_576,c_limit/81cdea1d-7617-49e1-a6ea-0cbbddb4d1db/nike-just-do-it.jpg",
+                alt: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "floating" }, [
+              _c("h1", { staticClass: "floating__title white" }, [
+                _vm._v("Essentiels de golf pour femmes")
+              ]),
+              _vm._v(" "),
+              _c("button", { staticClass: "floating__button bg-white" }, [
+                _vm._v("Shop")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "right__side__wrapper" }, [
+            _c("img", {
+              staticClass: "image__inner",
+              attrs: {
+                src:
+                  "https://static.nike.com/a/images/f_auto/dpr_2.0/w_576,c_limit/5cbd41d3-0a17-4b70-bc92-42aa18918263/nike-just-do-it.jpg",
+                alt: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "floating" }, [
+              _c("h1", { staticClass: "floating__title black" }, [
+                _vm._v("Essentiels de golf pour hommes")
+              ]),
+              _vm._v(" "),
+              _c("button", { staticClass: "floating__button bg__black" }, [
+                _vm._v("Shop")
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "spring__essentials" }, [
+        _c("h1", { staticClass: "best__sale--title" }, [
+          _vm._v("Articles recommandés")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card__wrapper--row" }, [
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card__image__wrapper" }, [
+              _c("img", {
+                staticClass: "card__image",
+                attrs: {
+                  src:
+                    "https://static.nike.com/a/images/f_auto/dpr_2.0/h_473,c_limit/ad8557e2-d8dc-4688-9cdd-a9ff3b050997/nike-just-do-it.jpg",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card__footer" }, [
+              _c("h1", { staticClass: "card__name" }, [_vm._v("Shorts")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card__image__wrapper" }, [
+              _c("img", {
+                staticClass: "card__image",
+                attrs: {
+                  src:
+                    "https://static.nike.com/a/images/f_auto/dpr_2.0/h_473,c_limit/182d9ef1-2dcc-4b3a-a637-8d5d00263cd1/nike-just-do-it.jpg",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card__footer" }, [
+              _c("h1", { staticClass: "card__name" }, [_vm._v("Jackets")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card__image__wrapper" }, [
+              _c("img", {
+                staticClass: "card__image",
+                attrs: {
+                  src:
+                    "https://static.nike.com/a/images/f_auto/dpr_2.0/h_473,c_limit/139fbdbf-a60a-46f6-bdb9-98525b8e404b/nike-just-do-it.jpg",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card__footer" }, [
+              _c("h1", { staticClass: "card__name" }, [_vm._v("Tees & Tanks")])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "members__benefits" }, [
+        _c("h1", { staticClass: "members__benefits--title" }, [
+          _vm._v("Avantages des membres")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "members__banner" }, [
+          _c("img", {
+            staticClass: "members__banner--image",
+            attrs: {
+              src:
+                "https://static.nike.com/a/images/f_auto/dpr_2.0/w_1168,c_limit/60475bc5-7b0a-457a-a456-000c081ec429/nike-just-do-it.jpg",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "floating" }, [
+            _c("div", { staticClass: "text" }, [
+              _c("h1", { staticClass: "text__title" }, [
+                _vm._v(
+                  "Things are better as a Nike Member. Get first and exclusive access to the newest styles &"
+                ),
+                _c("br"),
+                _vm._v(" innovation, free shipping, birthday rewards and more.")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "button" }, [
+              _c("button", [_vm._v("Inscription")]),
+              _vm._v(" "),
+              _c("button", [_vm._v("Connexion")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "members__benefits__cards__wrapper" }, [
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card__image__wrapper" }, [
+              _c("img", {
+                staticClass: "image",
+                attrs: {
+                  src:
+                    "https://static.nike.com/a/images/f_auto/dpr_2.0/w_379,c_limit/8cf41826-2f64-4738-8f8d-28268157af64/nike-just-do-it.jpg",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card__footer" }, [
+              _c("h1", { staticClass: "title" }, [
+                _vm._v("Exclusive Nike Shopping Perks")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card__image__wrapper" }, [
+              _c("img", {
+                staticClass: "image",
+                attrs: {
+                  src:
+                    "https://static.nike.com/a/images/f_auto/dpr_2.0/w_379,c_limit/2aaa646d-153c-42d7-94cf-5d21b0fe39ee/nike-just-do-it.jpg",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card__footer" }, [
+              _c("h1", { staticClass: "title" }, [
+                _vm._v("Exclusive Nike Shopping Perks")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card__image__wrapper" }, [
+              _c("img", {
+                staticClass: "image",
+                attrs: {
+                  src:
+                    "https://static.nike.com/a/images/f_auto/dpr_2.0/w_379,c_limit/6956f392-0691-48ad-ab10-be6db4433a82/nike-just-do-it.jpg",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card__footer" }, [
+              _c("h1", { staticClass: "title" }, [
+                _vm._v("Exclusive Nike Shopping Perks")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card__image__wrapper" }, [
+              _c("img", {
+                staticClass: "image",
+                attrs: {
+                  src:
+                    "https://static.nike.com/a/images/f_auto/dpr_2.0/w_379,c_limit/2858f95d-02c0-4b36-90b2-842313d99b5e/nike-just-do-it.jpg",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card__footer" }, [
+              _c("h1", { staticClass: "title" }, [
+                _vm._v("Exclusive Nike Shopping Perks")
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "categories" }, [
+        _c("div", { staticClass: "categories__wrapper" }, [
+          _c("div", { staticClass: "category" }, [
+            _c("h1", { staticClass: "title" }, [_vm._v("Featured")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "children__categories" }, [
+              _c("h1", { staticClass: "children" }, [_vm._v("Aire force 1")]),
+              _vm._v(" "),
+              _c("h1", { staticClass: "children" }, [_vm._v("Jordan 1")]),
+              _vm._v(" "),
+              _c("h1", { staticClass: "children" }, [_vm._v("Air Max 2090")]),
+              _vm._v(" "),
+              _c("h1", { staticClass: "children" }, [_vm._v("Air Max 270 ")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "category" }, [
+            _c("h1", { staticClass: "title" }, [_vm._v("Shoes")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "children__categories" }, [
+              _c("h1", { staticClass: "children" }, [_vm._v("All Shoes")]),
+              _vm._v(" "),
+              _c("h1", { staticClass: "children" }, [_vm._v("Jordan Shoes")]),
+              _vm._v(" "),
+              _c("h1", { staticClass: "children" }, [_vm._v("Running Shoes")]),
+              _vm._v(" "),
+              _c("h1", { staticClass: "children" }, [
+                _vm._v("Basketball Shoes")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "category" }, [
+            _c("h1", { staticClass: "title" }, [_vm._v("Clothing")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "children__categories" }, [
+              _c("h1", { staticClass: "children" }, [_vm._v("All Clothing")]),
+              _vm._v(" "),
+              _c("h1", { staticClass: "children" }, [
+                _vm._v("Tops & T-Shirts")
+              ]),
+              _vm._v(" "),
+              _c("h1", { staticClass: "children" }, [_vm._v("Shops")]),
+              _vm._v(" "),
+              _c("h1", { staticClass: "children" }, [
+                _vm._v("Hoodies & Pullovers")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "category" }, [
+            _c("h1", { staticClass: "title" }, [_vm._v("Kids'")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "children__categories" }, [
+              _c("h1", { staticClass: "children" }, [
+                _vm._v("Infant & Toddler Shoes")
+              ]),
+              _vm._v(" "),
+              _c("h1", { staticClass: "children" }, [_vm._v("Kid's Shoes")]),
+              _vm._v(" "),
+              _c("h1", { staticClass: "children" }, [
+                _vm._v("Kids' BasketBall Shoes")
+              ]),
+              _vm._v(" "),
+              _c("h1", { staticClass: "children" }, [
+                _vm._v("kids' Running Shoes")
               ])
             ])
           ])

@@ -1,16 +1,19 @@
 <template>
     <div class="container">
-        <!-- <navbar/> -->
+        <Nav/>
         <router-view></router-view>
+        <Footer/>
     </div>
 </template>
 
 <script>
 
-import Navbar from './components/Navbar/Navbar';
+import Nav from './components/Navbar/Nav';
+import Footer from './components/Footer/Footer'
 export default {
     components:{
-        Navbar
+        Nav,
+        Footer
     }, 
 
     mounted() {

@@ -1,6 +1,5 @@
 <template>  
     <div class="container">
-        <Nav/>
         <section class="body">
 
             <!-- Left side -->
@@ -530,6 +529,7 @@ export default{
     /* Maybe you will like */
     .may-be-you-will-like{
         margin-top: 120px;
+        margin-bottom: 180px;
         padding-top:  4.5rem;
         padding-left: 4.5rem;
     }
@@ -551,6 +551,7 @@ export default{
         display: flex;
         flex-direction: column;
     }
+
     .may-be-you-will-like .card-wrapper .card .header-wrapper{
         height: 372px;
         width: 100%;

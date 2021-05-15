@@ -153,6 +153,80 @@
                     </div>
                 </div>
 
+
+            </div>
+        </section>
+
+
+        <!-- Maybe you will like -->
+        <section class="may-be-you-will-like">
+            <h1 class="title">VOUS AIMEREZ PEUT-ÊTRE AUSSI</h1>
+
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="header-wrapper">
+                        <img src="https://images.nike.com/is/image/DotCom/DC5218_685?$NIKE_PWP_GRAY$&wid=420&hei=420" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h1 class="title">Nike</h1>
+                        <h3>Haut à manches courtes pour Homme</h3>
+                        <h3 class='price'>350 FCFA</h3>
+                    </div>
+                </div>
+
+                 <div class="card">
+                    <div class="header-wrapper">
+                        <img src="https://images.nike.com/is/image/DotCom/CZ2415_084?$NIKE_PWP_GRAY$&wid=420&hei=420" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h1 class="title">Nike</h1>
+                        <h3>Haut à manches courtes pour Homme</h3>
+                        <h3 class='price'>350 FCFA</h3>
+                    </div>
+                </div>
+
+                 <div class="card">
+                    <div class="header-wrapper">
+                        <img src="https://images.nike.com/is/image/DotCom/CV5032_638?$NIKE_PWP_GRAY$&wid=420&hei=420" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h1 class="title">Nike</h1>
+                        <h3>Haut à manches courtes pour Homme</h3>
+                        <h3 class='price'>350 FCFA</h3>
+                    </div>
+                </div>
+
+                 <div class="card">
+                    <div class="header-wrapper">
+                        <img src="https://images.nike.com/is/image/DotCom/DC5218_685?$NIKE_PWP_GRAY$&wid=420&hei=420" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h1 class="title">Nike</h1>
+                        <h3>Haut à manches courtes pour Homme</h3>
+                        <h3>350 FCFA</h3>
+                    </div>
+                </div>
+
+                 <div class="card">
+                    <div class="header-wrapper">
+                        <img src="https://images.nike.com/is/image/DotCom/DC5218_685?$NIKE_PWP_GRAY$&wid=420&hei=420" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h1 class="title">Nike</h1>
+                        <h3>Haut à manches courtes pour Homme</h3>
+                        <h3>350 FCFA</h3>
+                    </div>
+                </div>
+                 <div class="card">
+                    <div class="header-wrapper">
+                        <img src="https://images.nike.com/is/image/DotCom/DC5218_685?$NIKE_PWP_GRAY$&wid=420&hei=420" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h1 class="title">Nike</h1>
+                        <h3>Haut à manches courtes pour Homme</h3>
+                        <h3>350 FCFA</h3>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
@@ -394,11 +468,9 @@ export default{
 
     .items-wrapper .item{
         position: relative;
-        /* min-height: 70px; */
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* background-color: blue; */
         border-top: 1px solid #d8d7d7;
         padding: 14px 0
     }
@@ -414,7 +486,6 @@ export default{
         justify-content: space-between;
         align-items: center;
         height: 50px;
-        /* background-color: blue */
     }
 
     .item .header .subtitle{
@@ -422,7 +493,6 @@ export default{
     }
 
     .item .header .wrapper-button{
-        /* background-color: red; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -430,6 +500,11 @@ export default{
         padding-left: 10px ;
         padding-bottom: 10px 
     }
+
+    .item .header .wrapper-button:hover{
+        cursor: pointer
+    }
+
     .item .header img{
         height: 20px;
         width: 20px;
@@ -439,20 +514,67 @@ export default{
 
     .item .content{
         position: relative;
-        background-color: red;
         height: 0;
         overflow: hidden;
-        overflow-y: auto;
-        transition: .5s
     }
 
     .item .content.open{
         height: 100px;
-        /* padding: 20px 0; */
     }
 
     .item .content span{
         display: block;
         font-size: 1.5rem
+    }
+
+    /* Maybe you will like */
+    .may-be-you-will-like{
+        margin-top: 120px;
+        padding-top:  4.5rem;
+        padding-left: 4.5rem;
+    }
+
+    .may-be-you-will-like .title{
+        font-size: 1.7rem;
+    }
+
+    .may-be-you-will-like .card-wrapper{
+        margin: 30px 0;
+        width: 100%;
+        overflow-x: hidden;
+        display: flex;
+        gap: 10px
+    }
+
+    .may-be-you-will-like .card-wrapper .card{
+        min-width: 377px;
+        display: flex;
+        flex-direction: column;
+    }
+    .may-be-you-will-like .card-wrapper .card .header-wrapper{
+        height: 372px;
+        width: 100%;
+    }
+
+    .card .header-wrapper img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover
+    }
+
+    .card .card-body{
+        padding-top: 10px;
+        height: 110px;
+        /* background-color: blue */
+    }
+
+
+    .card .card-body h3{
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .card .card-body .price{
+        margin-top: 13px
     }
 </style>

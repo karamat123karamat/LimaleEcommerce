@@ -2536,6 +2536,80 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -7215,7 +7289,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.body[data-v-585cc731]{\n    widows: 100%;\n    margin-top: 5.8rem;\n    display: grid;\n    -moz-column-gap: 60px;\n         column-gap: 60px;\n    grid-template-columns: 1.8fr 1fr;\n    padding: 46px 4.5rem;\n}\n.body .left-side[data-v-585cc731]{\n}\n.left-side .image-wrapper[data-v-585cc731]{\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    grid-gap: 10px;\n}\n.body .right-side[data-v-585cc731]{\n    padding-top: 10px;\n    display: flex;\n    flex-direction: column;\n}\n\n/* Details Section */\n.right-side .details[data-v-585cc731]{\n    height: 100px;\n    widows: 100%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n.details .left[data-v-585cc731]{\n    width: 60%;\n    overflow: hidden;\n}\n.details .left .name[data-v-585cc731]{\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    overflow: hidden;\n}\n.details .right[data-v-585cc731]{\n    width: 30%;\n}\n.details .right .price[data-v-585cc731]{\n    font-size: 1.5rem;\n    text-align: end;\n}\n.left .name h1[data-v-585cc731]{\n    font-weight: 100;\n    font-size: 1.8rem;\n    height: 50%;\n    overflow: hidden;\n}\n.details .left .brand[data-v-585cc731]{\n    height: 50%;\n    overflow: hidden;\n    font-size: 2.7rem\n}\n.left-side img[data-v-585cc731]{\n    height: 444px;\n    width: 355px\n}\n\n/* Section autres couleurs */\n.other-colors[data-v-585cc731]{\n    margin-top: 15px;\n    flex-wrap: wrap;\n    width: 100%;\n    display: flex;\n    justify-content: flex-start;\n    gap: 3px\n}\n.other-colors .card[data-v-585cc731]{\n    width: 72px;\n    height: 72px;\n    border-radius: 3px;\n    overflow: hidden;\n}\n.other-colors .card img[data-v-585cc731]{\n    -o-object-fit: contain;\n       object-fit: contain;\n    width: 100%;\n    height: 100%\n}\n\n/* Section seclectionner une taille */\n.select-size[data-v-585cc731]{\n    margin: 30px 0;\n}\n.select-size .title[data-v-585cc731]{\n    font-size:1.7rem;\n    margin-bottom: 12px;\n}\n.select-size .card-size-wrapper[data-v-585cc731]{\n    width: 100%;\n    display: flex;\n    flex-wrap: wrap;\n    gap: 5px\n}\n.card-size-wrapper .card-size[data-v-585cc731]{\n    width: 124px;\n    height: 50px;\n    border: 1px solid #d8d7d7;\n    border-radius: 3px;\n    transition: border .5s;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n.card-size span[data-v-585cc731]{\n    font-size: 1.5rem\n}\n.card-size-wrapper .card-size[data-v-585cc731]:hover{\n    border: 1px solid #0000;\n}\n\n/* Section action buttons */\n.buttons-wrapper[data-v-585cc731]{\n    display: flex;\n    flex-direction: column;\n    gap: 12px\n}\n.buttons-wrapper button[data-v-585cc731]{\n    outline: none;\n    border: none;\n    height: 61px;\n    background-color: white;\n    border-radius: 30px;\n    font-size: 1.7rem;\n    display: flex;\n    justify-content:center;\n    align-items: center;\n}\n.buttons-wrapper .add-cart[data-v-585cc731]{\n    background-color: black;\n    color: white;\n}\n.buttons-wrapper .like[data-v-585cc731]{\n    border: 1px solid #d8d7d7;\n}\n.buttons-wrapper .like img[data-v-585cc731]{\n    margin-left: 7px\n}\n\n/* Description section */\n.description[data-v-585cc731]{\n    margin-top: 80px;\n    font-size: 1.5rem;\n    line-height: 2.5rem;\n    letter-spacing: .02rem\n}\n\n/* Specification */\n.specifications[data-v-585cc731]{\n    padding-left: 20px;\n    margin-top: 40px;\n    font-size: 1.5rem;\n    display: flex;\n    flex-direction: column;\n    gap: 10px\n}\n\n/* Details of prod$ */\n.details-of-product[data-v-585cc731]{\n    margin-top: 50px;\n    position: relative;\n}\n.details-of-product .title[data-v-585cc731]{\n    font-size: 1.7rem;\n    position: relative;\n}\n.details-of-product .title[data-v-585cc731]::before{\n    content: \"\";\n    position: absolute;\n    height: .5px;\n    background-color: black;\n    bottom: 0;\n    width: 55%\n}\n.items-wrapper[data-v-585cc731]{\n    margin-top: 70px;\n    display: flex;\n    flex-direction: column;\n    gap: 5px\n}\n.items-wrapper .item[data-v-585cc731]{\n    position: relative;\n    /* min-height: 70px; */\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    /* background-color: blue; */\n    border-top: 1px solid #d8d7d7;\n    padding: 14px 0\n}\n.items-wrapper .item[data-v-585cc731]:last-child{\n    border-bottom: 1px solid #d8d7d7;\n}\n.item .header[data-v-585cc731]{\n    position: relative;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    height: 50px;\n    /* background-color: blue */\n}\n.item .header .subtitle[data-v-585cc731]{\n    font-size: 2rem\n}\n.item .header .wrapper-button[data-v-585cc731]{\n    /* background-color: red; */\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding-top: 10px; \n    padding-left: 10px ;\n    padding-bottom: 10px\n}\n.item .header img[data-v-585cc731]{\n    height: 20px;\n    width: 20px;\n    margin-right: 2px;\n}\n.item .content[data-v-585cc731]{\n    position: relative;\n    background-color: red;\n    height: 0;\n    overflow: hidden;\n    overflow-y: auto;\n    transition: .5s\n}\n.item .content.open[data-v-585cc731]{\n    height: 100px;\n    /* padding: 20px 0; */\n}\n.item .content span[data-v-585cc731]{\n    display: block;\n    font-size: 1.5rem\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.body[data-v-585cc731]{\n    widows: 100%;\n    margin-top: 5.8rem;\n    display: grid;\n    -moz-column-gap: 60px;\n         column-gap: 60px;\n    grid-template-columns: 1.8fr 1fr;\n    padding: 46px 4.5rem;\n}\n.body .left-side[data-v-585cc731]{\n}\n.left-side .image-wrapper[data-v-585cc731]{\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    grid-gap: 10px;\n}\n.body .right-side[data-v-585cc731]{\n    padding-top: 10px;\n    display: flex;\n    flex-direction: column;\n}\n\n/* Details Section */\n.right-side .details[data-v-585cc731]{\n    height: 100px;\n    widows: 100%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n.details .left[data-v-585cc731]{\n    width: 60%;\n    overflow: hidden;\n}\n.details .left .name[data-v-585cc731]{\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    overflow: hidden;\n}\n.details .right[data-v-585cc731]{\n    width: 30%;\n}\n.details .right .price[data-v-585cc731]{\n    font-size: 1.5rem;\n    text-align: end;\n}\n.left .name h1[data-v-585cc731]{\n    font-weight: 100;\n    font-size: 1.8rem;\n    height: 50%;\n    overflow: hidden;\n}\n.details .left .brand[data-v-585cc731]{\n    height: 50%;\n    overflow: hidden;\n    font-size: 2.7rem\n}\n.left-side img[data-v-585cc731]{\n    height: 444px;\n    width: 355px\n}\n\n/* Section autres couleurs */\n.other-colors[data-v-585cc731]{\n    margin-top: 15px;\n    flex-wrap: wrap;\n    width: 100%;\n    display: flex;\n    justify-content: flex-start;\n    gap: 3px\n}\n.other-colors .card[data-v-585cc731]{\n    width: 72px;\n    height: 72px;\n    border-radius: 3px;\n    overflow: hidden;\n}\n.other-colors .card img[data-v-585cc731]{\n    -o-object-fit: contain;\n       object-fit: contain;\n    width: 100%;\n    height: 100%\n}\n\n/* Section seclectionner une taille */\n.select-size[data-v-585cc731]{\n    margin: 30px 0;\n}\n.select-size .title[data-v-585cc731]{\n    font-size:1.7rem;\n    margin-bottom: 12px;\n}\n.select-size .card-size-wrapper[data-v-585cc731]{\n    width: 100%;\n    display: flex;\n    flex-wrap: wrap;\n    gap: 5px\n}\n.card-size-wrapper .card-size[data-v-585cc731]{\n    width: 124px;\n    height: 50px;\n    border: 1px solid #d8d7d7;\n    border-radius: 3px;\n    transition: border .5s;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n.card-size span[data-v-585cc731]{\n    font-size: 1.5rem\n}\n.card-size-wrapper .card-size[data-v-585cc731]:hover{\n    border: 1px solid #0000;\n}\n\n/* Section action buttons */\n.buttons-wrapper[data-v-585cc731]{\n    display: flex;\n    flex-direction: column;\n    gap: 12px\n}\n.buttons-wrapper button[data-v-585cc731]{\n    outline: none;\n    border: none;\n    height: 61px;\n    background-color: white;\n    border-radius: 30px;\n    font-size: 1.7rem;\n    display: flex;\n    justify-content:center;\n    align-items: center;\n}\n.buttons-wrapper .add-cart[data-v-585cc731]{\n    background-color: black;\n    color: white;\n}\n.buttons-wrapper .like[data-v-585cc731]{\n    border: 1px solid #d8d7d7;\n}\n.buttons-wrapper .like img[data-v-585cc731]{\n    margin-left: 7px\n}\n\n/* Description section */\n.description[data-v-585cc731]{\n    margin-top: 80px;\n    font-size: 1.5rem;\n    line-height: 2.5rem;\n    letter-spacing: .02rem\n}\n\n/* Specification */\n.specifications[data-v-585cc731]{\n    padding-left: 20px;\n    margin-top: 40px;\n    font-size: 1.5rem;\n    display: flex;\n    flex-direction: column;\n    gap: 10px\n}\n\n/* Details of prod$ */\n.details-of-product[data-v-585cc731]{\n    margin-top: 50px;\n    position: relative;\n}\n.details-of-product .title[data-v-585cc731]{\n    font-size: 1.7rem;\n    position: relative;\n}\n.details-of-product .title[data-v-585cc731]::before{\n    content: \"\";\n    position: absolute;\n    height: .5px;\n    background-color: black;\n    bottom: 0;\n    width: 55%\n}\n.items-wrapper[data-v-585cc731]{\n    margin-top: 70px;\n    display: flex;\n    flex-direction: column;\n    gap: 5px\n}\n.items-wrapper .item[data-v-585cc731]{\n    position: relative;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    border-top: 1px solid #d8d7d7;\n    padding: 14px 0\n}\n.items-wrapper .item[data-v-585cc731]:last-child{\n    border-bottom: 1px solid #d8d7d7;\n}\n.item .header[data-v-585cc731]{\n    position: relative;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    height: 50px;\n}\n.item .header .subtitle[data-v-585cc731]{\n    font-size: 2rem\n}\n.item .header .wrapper-button[data-v-585cc731]{\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding-top: 10px; \n    padding-left: 10px ;\n    padding-bottom: 10px\n}\n.item .header .wrapper-button[data-v-585cc731]:hover{\n    cursor: pointer\n}\n.item .header img[data-v-585cc731]{\n    height: 20px;\n    width: 20px;\n    margin-right: 2px;\n}\n.item .content[data-v-585cc731]{\n    position: relative;\n    height: 0;\n    overflow: hidden;\n}\n.item .content.open[data-v-585cc731]{\n    height: 100px;\n}\n.item .content span[data-v-585cc731]{\n    display: block;\n    font-size: 1.5rem\n}\n\n/* Maybe you will like */\n.may-be-you-will-like[data-v-585cc731]{\n    margin-top: 120px;\n    padding-top:  4.5rem;\n    padding-left: 4.5rem;\n}\n.may-be-you-will-like .title[data-v-585cc731]{\n    font-size: 1.7rem;\n}\n.may-be-you-will-like .card-wrapper[data-v-585cc731]{\n    margin: 30px 0;\n    width: 100%;\n    overflow-x: hidden;\n    display: flex;\n    gap: 10px\n}\n.may-be-you-will-like .card-wrapper .card[data-v-585cc731]{\n    min-width: 377px;\n    display: flex;\n    flex-direction: column;\n}\n.may-be-you-will-like .card-wrapper .card .header-wrapper[data-v-585cc731]{\n    height: 372px;\n    width: 100%;\n}\n.card .header-wrapper img[data-v-585cc731]{\n    height: 100%;\n    width: 100%;\n    -o-object-fit: cover;\n       object-fit: cover\n}\n.card .card-body[data-v-585cc731]{\n    padding-top: 10px;\n    height: 110px;\n    /* background-color: blue */\n}\n.card .card-body h3[data-v-585cc731]{\n    font-size: 1.4rem;\n    line-height: 2rem;\n}\n.card .card-body .price[data-v-585cc731]{\n    margin-top: 13px\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -40190,7 +40264,9 @@ var render = function() {
             ])
           ])
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _vm._m(13)
     ],
     1
   )
@@ -40451,6 +40527,138 @@ var staticRenderFns = [
     return _c("span", [
       _c("img", { attrs: { src: "", alt: "" } }),
       _vm._v("  Guide des tailles")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "may-be-you-will-like" }, [
+      _c("h1", { staticClass: "title" }, [
+        _vm._v("VOUS AIMEREZ PEUT-ÊTRE AUSSI")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card-wrapper" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "header-wrapper" }, [
+            _c("img", {
+              attrs: {
+                src:
+                  "https://images.nike.com/is/image/DotCom/DC5218_685?$NIKE_PWP_GRAY$&wid=420&hei=420",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _c("h1", { staticClass: "title" }, [_vm._v("Nike")]),
+            _vm._v(" "),
+            _c("h3", [_vm._v("Haut à manches courtes pour Homme")]),
+            _vm._v(" "),
+            _c("h3", { staticClass: "price" }, [_vm._v("350 FCFA")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "header-wrapper" }, [
+            _c("img", {
+              attrs: {
+                src:
+                  "https://images.nike.com/is/image/DotCom/CZ2415_084?$NIKE_PWP_GRAY$&wid=420&hei=420",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _c("h1", { staticClass: "title" }, [_vm._v("Nike")]),
+            _vm._v(" "),
+            _c("h3", [_vm._v("Haut à manches courtes pour Homme")]),
+            _vm._v(" "),
+            _c("h3", { staticClass: "price" }, [_vm._v("350 FCFA")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "header-wrapper" }, [
+            _c("img", {
+              attrs: {
+                src:
+                  "https://images.nike.com/is/image/DotCom/CV5032_638?$NIKE_PWP_GRAY$&wid=420&hei=420",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _c("h1", { staticClass: "title" }, [_vm._v("Nike")]),
+            _vm._v(" "),
+            _c("h3", [_vm._v("Haut à manches courtes pour Homme")]),
+            _vm._v(" "),
+            _c("h3", { staticClass: "price" }, [_vm._v("350 FCFA")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "header-wrapper" }, [
+            _c("img", {
+              attrs: {
+                src:
+                  "https://images.nike.com/is/image/DotCom/DC5218_685?$NIKE_PWP_GRAY$&wid=420&hei=420",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _c("h1", { staticClass: "title" }, [_vm._v("Nike")]),
+            _vm._v(" "),
+            _c("h3", [_vm._v("Haut à manches courtes pour Homme")]),
+            _vm._v(" "),
+            _c("h3", [_vm._v("350 FCFA")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "header-wrapper" }, [
+            _c("img", {
+              attrs: {
+                src:
+                  "https://images.nike.com/is/image/DotCom/DC5218_685?$NIKE_PWP_GRAY$&wid=420&hei=420",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _c("h1", { staticClass: "title" }, [_vm._v("Nike")]),
+            _vm._v(" "),
+            _c("h3", [_vm._v("Haut à manches courtes pour Homme")]),
+            _vm._v(" "),
+            _c("h3", [_vm._v("350 FCFA")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "header-wrapper" }, [
+            _c("img", {
+              attrs: {
+                src:
+                  "https://images.nike.com/is/image/DotCom/DC5218_685?$NIKE_PWP_GRAY$&wid=420&hei=420",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _c("h1", { staticClass: "title" }, [_vm._v("Nike")]),
+            _vm._v(" "),
+            _c("h3", [_vm._v("Haut à manches courtes pour Homme")]),
+            _vm._v(" "),
+            _c("h3", [_vm._v("350 FCFA")])
+          ])
+        ])
+      ])
     ])
   }
 ]

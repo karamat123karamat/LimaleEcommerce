@@ -293,7 +293,7 @@
         </section>
 
         <section class='categories'>
-            <div class="categories__wrapper">
+            <div class="categories__wrapper" @mouseover="onSlideIn" @mouseleave="offSlideIn">
                 <div class="category">
                     <h1 class="title">Featured</h1>
                     <div class="children__categories">
@@ -331,14 +331,95 @@
                     </div>
                 </div>
             </div>
+            <div class="categories__animation__wrapper" :class='categorySlide ? "slide__in" : "" '>
+                <div class="children__categories">
+                    <h1 class='children'>Aire force 1</h1>
+                    <h1 class='children'>Jordan 1</h1>
+                    <h1 class='children'>Air Max 2090</h1>
+                    <h1 class='children'>Air Max 270 </h1>
+                </div>
+                <div class="children__categories">
+                    <h1 class='children'>Aire force 1</h1>
+                    <h1 class='children'>Jordan 1</h1>
+                    <h1 class='children'>Air Max 2090</h1>
+                    <h1 class='children'>Air Max 270 </h1>
+                </div>
+                <div class="children__categories">
+                    <h1 class='children'>Aire force 1</h1>
+                    <h1 class='children'>Jordan 1</h1>
+                    <h1 class='children'>Air Max 2090</h1>
+                    <h1 class='children'>Air Max 270 </h1>
+                </div>
+                <div class="children__categories">
+                    <h1 class='children'>Aire force 1</h1>
+                    <h1 class='children'>Jordan 1</h1>
+                    <h1 class='children'>Air Max 2090</h1>
+                    <h1 class='children'>Air Max 270 </h1>
+                </div>
+            </div>
         </section>
+
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="left">
+                    <ul class="link__wrapper">
+                        <li>Gift Cards</li>
+                        <li>Promotions</li>
+                        <li>Find a Store</li>
+                        <li>Sign up for email</li>
+                        <li>Become</li>
+                        <li>Send Us Feedback</li>
+                    </ul>
+                    <div class="link__wrapper">
+                        <h1>Get Help</h1>
+                        <h1>Order Status</h1>
+                        <h1>Shipping and Delivery</h1>
+                        <h1>Returns</h1>
+                        <h1>Payment options</h1>
+                        <h1>Gift Card Balance</h1>
+                        <h1>Contact Us</h1>
+                    </div>
+                    <div class="link__wrapper">
+                        <h1>About Wishop</h1>
+                        <h1>News</h1>
+                        <h1>Carreers</h1>
+                        <h1>Invertors</h1>
+                        <h1>Purpose</h1>
+                        <h1>Gift Card Balance</h1>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="https://img.icons8.com/android/24/000000/twitter.png"/>
+                    <img src="https://img.icons8.com/fluent-systems-regular/48/000000/instagram-new--v1.png"/>
+                    <img src="https://img.icons8.com/metro/24/000000/youtube.png"/>
+                    <img src="https://img.icons8.com/metro/24/000000/youtube.png"/>
+                </div>
+            </div>
+            <div class="header__bottom">
+
+            </div>
+        </footer>
     </div>
     
 </template>
 
 <script>
 export default {
-    
+    data(){
+        return{
+            categorySlide: false
+        }
+    },
+
+    methods:{
+        onSlideIn(){
+            this.categorySlide = true
+        },
+        offSlideIn(){
+            this.categorySlide = false
+            
+        }
+    }
 }
 </script>
 
@@ -954,29 +1035,30 @@ export default {
 
     /* Categories */
     .categories{
+        padding-bottom: 0 !important;
         margin-top: 5rem;
         padding: 0 4.5rem;
         /* background-color: blue; */
-        height: 38.4rem;
+        flex-direction: column;
+        height: unset;
         display: flex;
         justify-content: center;
-        align-items: flex-start;
     }
 
     .categories__wrapper{
         /* background-color: red; */
-        height: 50%;
+        height: 20rem;
         width: 100%;
         display: flex;
         justify-content: space-between;
         padding: 0 13rem;
         align-items: center;
-        gap: 4rem
+        gap: 4rem;
     }
 
     .categories__wrapper .category{
         /* background-color: yellow; */
-        height: 100%;
+        /* height: 100%; */
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -1002,6 +1084,101 @@ export default {
 
     .children__categories h1{
         font-size: 1.6rem;
-        color: #a7a8a8
+        color: #8b8b8b
     }
+
+    .categories .categories__animation__wrapper{
+        /* margin-top: -1.2rem; */
+        /* background-color: green; */
+        /* height: 40rem; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0 13rem;
+        gap: 4rem;
+        top:0;
+        visibility: hidden;
+    }
+    .slide__in{
+        animation: category 10s forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes category{
+        0%{
+            opacity: 0.8;
+            height: 40rem;
+            visibility: unset;
+        }
+        /* 25%{
+            height: 20rem;
+            visibility: unset;
+        }
+        50%{
+            height: 30rem;
+            visibility: unset;
+        } */
+        100%{
+            height: 40rem;
+        visibility: unset;
+        }
+    }
+
+    .categories__animation__wrapper .children__categories{
+        height: 25%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 1.5rem;
+        flex: 1;
+        /* background-color: orange */
+    }
+    .children__categories .children{
+        text-align: left;
+    }
+
+
+    .footer{
+        height: 35.1rem;
+        background-color: #000;
+        padding:4rem 4rem 0 4rem
+    }
+
+    .footer .footer__top{
+        position: relative;
+        height: 21.7rem;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer .footer__top::before{
+        position: absolute;
+        content: "";
+        bottom: -3rem;
+        width:100%;
+        height: .05rem;
+        background-color: rgba(128, 128, 128, 0.452)
+    }
+
+    .footer__top .left{
+        background-color: yellow;
+        width: 50%;
+        display: flex;
+        justify-content:space-between
+    }
+    .footer .left .link__wrapper{
+        height: 100%;
+        background-color: green;
+        width: 30%;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+
+    .footer .footer__bottom{
+
+    }
+
 </style>

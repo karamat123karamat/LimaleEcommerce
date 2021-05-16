@@ -108,11 +108,11 @@
                     <h1 class="title">Afficher les détails du produit</h1>
 
                     <div class="items-wrapper">
-                       <div class="item">
+                       <div class="item" @click="openAccordion">
                            <div class="header">
                                 <h1 class='subtitle'>Taille et coupe</h1>
                                 
-                                <div class="wrapper-button" @click="openAccordion">
+                                <div class="wrapper-button" >
                                     <img  src="https://img.icons8.com/metro/26/000000/chevron-down.png"/>
                                 </div>
                            </div>
@@ -159,6 +159,22 @@
 
         <!-- Maybe you will like -->
         <section class="may-be-you-will-like">
+            <div class="button-slide left-button">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="26" height="26"
+                    viewBox="0 0 172 172"
+                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#cccccc"><path d="M96.49159,23.72236l-62.27765,62.27764l62.27765,62.27765l18.70913,-18.70913l-43.56851,-43.56851l43.56851,-43.56851z"></path></g></g>
+                </svg>
+            </div>
+
+            <div class="button-slide right-button">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="26" height="26"
+                    viewBox="0 0 172 172"
+                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#cccccc"><path d="M75.50842,23.72236l-18.70913,18.70913l43.56851,43.56851l-43.56851,43.56851l18.70913,18.70913l62.27764,-62.27765z"></path></g></g>
+                </svg>
+            </div>
+
             <h1 class="title">VOUS AIMEREZ PEUT-ÊTRE AUSSI</h1>
 
             <div class="card-wrapper">
@@ -335,14 +351,19 @@ export default{
         width: 100%;
         display: flex;
         justify-content: flex-start;
-        gap: 3px
+        gap: 4px
     }
 
     .other-colors .card{
         width: 72px;
         height: 72px;
-        border-radius: 3px;
+        border-radius: 5px;
         overflow: hidden;
+    }
+
+    .other-colors .card:hover{
+        cursor: pointer;
+        border: 1px solid black;
     }
 
     .other-colors .card img{
@@ -372,8 +393,7 @@ export default{
         width: 124px;
         height: 50px;
         border: 1px solid #d8d7d7;
-        border-radius: 3px;
-        transition: border .5s;
+        border-radius: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -384,8 +404,8 @@ export default{
     }
 
     .card-size-wrapper .card-size:hover{
-        border: 1px solid #0000;
-
+        cursor: pointer;
+        border: 1px solid black;
     }
 
     /* Section action buttons */
@@ -410,6 +430,12 @@ export default{
     .buttons-wrapper .add-cart{
         background-color: black;
         color: white;
+        transition: .4s
+    }
+
+    .buttons-wrapper .add-cart:hover{
+        cursor: pointer;
+        background-color: #404040
     }
 
     .buttons-wrapper .like{
@@ -471,7 +497,11 @@ export default{
         flex-direction: column;
         justify-content: center;
         border-top: 1px solid #d8d7d7;
-        padding: 14px 0
+        padding: 12px 0
+    }
+
+    .items-wrapper .item:hover{
+        cursor: pointer;
     }
 
     .items-wrapper .item:last-child{
@@ -528,6 +558,7 @@ export default{
 
     /* Maybe you will like */
     .may-be-you-will-like{
+        position: relative;
         margin-top: 120px;
         margin-bottom: 180px;
         padding-top:  4.5rem;
@@ -539,6 +570,7 @@ export default{
     }
 
     .may-be-you-will-like .card-wrapper{
+        position: relative;
         margin: 30px 0;
         width: 100%;
         overflow-x: hidden;
@@ -547,6 +579,7 @@ export default{
     }
 
     .may-be-you-will-like .card-wrapper .card{
+        position: relative;
         min-width: 377px;
         display: flex;
         flex-direction: column;
@@ -577,5 +610,33 @@ export default{
 
     .card .card-body .price{
         margin-top: 13px
+    }
+
+
+    .may-be-you-will-like .button-slide{
+        z-index: 100;
+        position: absolute;
+        top: 68%;
+        transform: translateY(-50%);
+        padding: 8px;
+        border-radius: 50%;
+        background-color: #F8F8F8;
+        transition: .4s
+    }
+
+     .may-be-you-will-like .button-slide:hover{
+         cursor: pointer
+     }
+
+     .may-be-you-will-like .button-slide:hover svg{
+         filter: invert(75%) ;
+}
+    
+    .may-be-you-will-like .button-slide.left-button{
+        left: 70px;
+    }
+
+    .may-be-you-will-like .button-slide.right-button{
+        right: 110px
     }
 </style>

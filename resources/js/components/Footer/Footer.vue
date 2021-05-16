@@ -39,7 +39,7 @@
                         <img src="https://img.icons8.com/metro/24/000000/youtube.png"/>
                     </div>
                     <div>
-                        <img src="https://img.icons8.com/metro/24/000000/youtube.png"/>
+                        <img src="https://img.icons8.com/material-outlined/50/000000/instagram-new--v1.png"/>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,6 @@ export default {
         position: relative;
         height: 21.7rem;
         width: 100%;
-        /* background-color: red; */
         display: flex;
         justify-content: space-between;
     }
@@ -105,7 +104,6 @@ export default {
     }
 
     .footer__top .left{
-        /* background-color: yellow; */
         width: 50%;
         display: flex;
         justify-content:space-between;
@@ -116,14 +114,12 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        /* background-color: blue; */
         gap: 8px
     }
 
     .footer .left .link__wrapper:nth-child(2),
     .footer .left .link__wrapper:nth-child(3){
         height: 80%;
-        /* background-color: yellow; */
         display: flex;
         flex-direction: column;
         gap: 5px;
@@ -133,7 +129,6 @@ export default {
         list-style: none;
         font-size: 1.5rem;
         color: white
-        /* background-color: blue */
     }
 
     .footer .left .link__wrapper h1:first-child{
@@ -145,7 +140,6 @@ export default {
     }
 
     .footer__top .right{
-        /* background-color: red; */
         width: 18%;
         display: flex;
         justify-content: space-evenly;
@@ -170,14 +164,12 @@ export default {
     .footer .footer__bottom{
         margin-top: 5rem;
         position: relative;
-        /* background-color: yellow; */
         color: #7E7E7E;
         width: 100%
     }
 
     .footer__bottom .first-section{
         margin-left: auto;
-        /* background-color: yellow; */
         width: 40%;
         display: flex;
         justify-content: space-between;
@@ -190,7 +182,6 @@ export default {
 
     .footer__bottom .last-section{
         margin-top: 25px;
-        /* background-color: red; */
         display: flex;
         justify-content: space-between
     }

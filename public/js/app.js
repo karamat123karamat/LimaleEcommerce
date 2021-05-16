@@ -1959,6 +1959,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {};
@@ -7016,7 +7036,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-deb93918]{\n    margin-top: 5.8rem;\n    min-height: 100vh;\n    padding: 46px 4.5rem;\n    display: grid;\n    -moz-column-gap: 60px;\n         column-gap: 60px;\n    grid-template-columns: 1.8fr 1fr;\n}\n.container .left-section[data-v-deb93918]{\n    /* background-color: red */\n}\n.left-section .header-wrapper[data-v-deb93918]{\n    width: 100%;\n    height: 50px;\n    display: flex;\n    align-items: center;\n    justify-content: flex-start\n}\n.header-wrapper .title[data-v-deb93918]{\n    font-size: 1.9rem;\n    letter-spacing: 0.08rem;\n    margin-right: 7px\n}\n.header-wrapper .number-articles[data-v-deb93918]{\n    font-size:1.5rem;\n    font-weight: 100;\n    margin-top: 4px\n}\n.left-section .card-wrapper[data-v-deb93918]{\n    box-shadow: 0 0  4px  #d8d7d7;\n    width: 100%\n}\n.card-wrapper .header-card-wrapper[data-v-deb93918]{\n    padding: 20px;\n    height: 55px;\n    border-bottom: .1px solid #d8d7d7;\n    display: flex;\n    justify-content: flex-start;\n    align-items: center;\n}\n.card-wrapper .card-inner[data-v-deb93918]{\n    padding: 30px;\n}\n.card-inner .card[data-v-deb93918]{\n    height: 199px;\n    /* background-color: blue; */\n    border-bottom: 1px solid  #d8d7d7;\n    display: grid;\n    grid-template-columns: 1fr 3fr 1fr;\n}\n.card .image-wrapper[data-v-deb93918]{\n    /* background-color: yellow; */\n    display: flex;\n    justify-content: center;\n    align-items: center\n}\n.card .image-wrapper img[data-v-deb93918]{\n    height: 150px;\n    width: 150px;\n    -o-object-fit: cover;\n       object-fit: cover\n}\n.card .middle-section[data-v-deb93918]{\n    /* background-color: red; */\n    display: flex;\n    flex-direction: column;\n    padding: 0 10px\n}\n.middle-section .brand[data-v-deb93918]{\n    text-transform: uppercase;\n    margin-top: 55px;\n}\n.middle-section .name[data-v-deb93918]{\n    font-size: 1.3rem;\n    font-weight: 100;\n    margin-top: 3px;\n    max-height: 40px;\n    overflow: hidden;\n}\n.middle-section .references[data-v-deb93918]{\n    margin-top: 6px;\n}\n.references span[data-v-deb93918]{\n    font-size: 1rem\n}\n.references span[data-v-deb93918]:first-child{\n    margin-right: 9px\n}\n.references span[data-v-deb93918]:last-child{\n    color: green\n}\n.middle-section .delete[data-v-deb93918]{\n    margin-top: 30px;\n    display: flex;\n    align-items: center;\n}\n.delete img[data-v-deb93918]{\n    height: 25px;\n    width: 25px;\n    margin-right: 5px;\n}\n.delete span[data-v-deb93918]{\n    font-size: 1.1rem;\n}\n.card .card-right-section[data-v-deb93918]{\n    /* background-color: orange; */\n    display: flex;\n    align-items: flex-end;\n    flex-direction: column;\n}\n.card-right-section .price[data-v-deb93918]{\n     margin-top: 65px;\n     text-align: end;\n}\n.card-right-section .amount[data-v-deb93918]{\n    border: 1px solid #d8d7d7;\n    margin-top: 67px;\n    height: 35px;\n    width: 90px;\n    display: flex;\n    justify-content: space-evenly;\n    align-items: center;\n}\n.amount span[data-v-deb93918]{\n    font-size: 1.3rem;\n    padding: 5px 8px\n}\n.amount span[data-v-deb93918]:hover{\n    cursor: pointer;\n}\n.header-card-wrapper .text[data-v-deb93918]{\n     font-weight: 100;\n     margin-right: 6px;\n}\n.header-card-wrapper .whishop-logo[data-v-deb93918]{\n    font-size: 1.5rem\n}\n.container .right-section[data-v-deb93918]{\n    background-color: blue\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-deb93918]{\n    margin-top: 5.8rem;\n    min-height: 100vh;\n    padding: 46px 4.5rem;\n    display: grid;\n    -moz-column-gap: 60px;\n         column-gap: 60px;\n    grid-template-columns: 1.8fr 1fr;\n}\n.container .left-section[data-v-deb93918]{\n    /* background-color: red */\n}\n.left-section .header-wrapper[data-v-deb93918]{\n    width: 100%;\n    height: 50px;\n    display: flex;\n    align-items: center;\n    justify-content: flex-start\n}\n.header-wrapper .title[data-v-deb93918]{\n    font-size: 1.9rem;\n    letter-spacing: 0.08rem;\n    margin-right: 7px\n}\n.header-wrapper .number-articles[data-v-deb93918]{\n    font-size:1.5rem;\n    font-weight: 100;\n    margin-top: 4px\n}\n.left-section .card-wrapper[data-v-deb93918]{\n    box-shadow: 0 0  4px  #d8d7d7;\n    width: 100%\n}\n.card-wrapper .header-card-wrapper[data-v-deb93918]{\n    padding: 20px;\n    height: 55px;\n    border-bottom: .1px solid #d8d7d7;\n    display: flex;\n    justify-content: flex-start;\n    align-items: center;\n}\n.card-wrapper .card-inner[data-v-deb93918]{\n    padding: 30px;\n}\n.card-inner .card[data-v-deb93918]{\n    height: 199px;\n    /* background-color: blue; */\n    border-bottom: 1px solid  #d8d7d7;\n    display: grid;\n    grid-template-columns: 1fr 3fr 1fr;\n}\n.card .image-wrapper[data-v-deb93918]{\n    /* background-color: yellow; */\n    display: flex;\n    justify-content: center;\n    align-items: center\n}\n.card .image-wrapper img[data-v-deb93918]{\n    height: 150px;\n    width: 150px;\n    -o-object-fit: cover;\n       object-fit: cover\n}\n.card .middle-section[data-v-deb93918]{\n    /* background-color: red; */\n    display: flex;\n    flex-direction: column;\n    padding: 0 10px\n}\n.middle-section .brand[data-v-deb93918]{\n    text-transform: uppercase;\n    margin-top: 55px;\n}\n.middle-section .name[data-v-deb93918]{\n    font-size: 1.3rem;\n    font-weight: 100;\n    margin-top: 3px;\n    max-height: 40px;\n    overflow: hidden;\n}\n.middle-section .references[data-v-deb93918]{\n    margin-top: 6px;\n}\n.references span[data-v-deb93918]{\n    font-size: 1rem\n}\n.references span[data-v-deb93918]:first-child{\n    margin-right: 9px\n}\n.references span[data-v-deb93918]:last-child{\n    color: green\n}\n.middle-section .delete[data-v-deb93918]{\n    margin-top: 30px;\n    display: flex;\n    align-items: center;\n}\n.delete img[data-v-deb93918]{\n    height: 25px;\n    width: 25px;\n    margin-right: 5px;\n}\n.delete span[data-v-deb93918]{\n    font-size: 1.1rem;\n}\n.card .card-right-section[data-v-deb93918]{\n    /* background-color: orange; */\n    display: flex;\n    align-items: flex-end;\n    flex-direction: column;\n}\n.card-right-section .price[data-v-deb93918]{\n     margin-top: 65px;\n     text-align: end;\n}\n.card-right-section .amount[data-v-deb93918]{\n    border: 1px solid #d8d7d7;\n    margin-top: 67px;\n    height: 35px;\n    width: 90px;\n    display: flex;\n    justify-content: space-evenly;\n    align-items: center;\n}\n.amount span[data-v-deb93918]{\n    font-size: 1.3rem;\n    padding: 5px 8px\n}\n.amount span[data-v-deb93918]:hover{\n    cursor: pointer;\n}\n.header-card-wrapper .text[data-v-deb93918]{\n     font-weight: 100;\n     margin-right: 6px;\n}\n.header-card-wrapper .whishop-logo[data-v-deb93918]{\n    font-size: 1.5rem\n}\n\n\n/* Right Section */\n.container .right-section[data-v-deb93918]{\n    /* background-color: blue */\n}\n.right-section .header-wrapper[data-v-deb93918]{\n    width: 100%;\n    height: 50px;\n    display: flex;\n    align-items: center;\n    justify-content: flex-start\n}\n\n/* Summary */\n.right-section .summary[data-v-deb93918]{\n    padding: 20px;\n    height: 274px;\n    box-shadow: 0 0  4px  #d8d7d7;\n    display: grid;\n    grid-template-columns: 1fr;\n    grid-template-rows: 1fr 1fr 1fr 1.5fr;\n    align-items: center;\n}\n.summary div[data-v-deb93918]{\n    border-bottom: 1px solid #d8d7d7;\n    padding: 15px 0;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n}\n.summary div span[data-v-deb93918]{\n    font-size: 1.4rem\n}\n.summary div[data-v-deb93918]:nth-child(3),\n.summary div[data-v-deb93918]:last-child{\n    border: none\n}\n.summary div:nth-child(3) span[data-v-deb93918]{\n    font-weight: 900;\n    font-size: 1.6rem\n}\n.summary div:nth-child(3) span span[data-v-deb93918]{\n    margin-left: 10px;\n    font-weight: 100;\n    font-size: 1.2rem\n}\n.summary button[data-v-deb93918]{\n    outline: none;\n    border: none;\n    width: 100%;\n    height: 52px;\n    background-color: black;\n    color: white;\n    font-size: 1.6rem;\n    border-radius: 99999px;\n    cursor: pointer\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7040,7 +7060,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.footer[data-v-4cfaf658]{\n        height: 39.1rem;\n        background-color: #111111;\n        padding:4rem 4rem 0 4rem;\n        margin-bottom: 30px;\n}\n.footer .footer__top[data-v-4cfaf658]{\n        position: relative;\n        height: 21.7rem;\n        width: 100%;\n        display: flex;\n        justify-content: space-between;\n}\n.footer .footer__top[data-v-4cfaf658]::before{\n        position: absolute;\n        content: \"\";\n        bottom: -3rem;\n        width:100%;\n        height: .05rem;\n        background-color: rgba(128, 128, 128, 0.452)\n}\n.footer__top .left[data-v-4cfaf658]{\n        width: 50%;\n        display: flex;\n        justify-content:space-between;\n}\n.footer .left .link__wrapper[data-v-4cfaf658]{\n        height: 100%;\n        width: 30%;\n        display: flex;\n        flex-direction: column;\n        justify-content: space-evenly;\n        gap: 8px\n}\n.footer .left .link__wrapper[data-v-4cfaf658]:nth-child(2),\n    .footer .left .link__wrapper[data-v-4cfaf658]:nth-child(3){\n        height: 80%;\n        display: flex;\n        flex-direction: column;\n        gap: 5px;\n}\n.footer .left .link__wrapper li[data-v-4cfaf658]{\n        list-style: none;\n        font-size: 1.5rem;\n        color: white\n}\n.footer .left .link__wrapper h1[data-v-4cfaf658]:first-child{\n        color: white\n}\n.footer .left .link__wrapper h1[data-v-4cfaf658]{\n        color: #7E7E7E\n}\n.footer__top .right[data-v-4cfaf658]{\n        width: 18%;\n        display: flex;\n        justify-content: space-evenly;\n        align-items: flex-start;\n}\n.footer__top .right div[data-v-4cfaf658]{\n        height: 38px;\n        width: 38px;\n        background-color: #7E7E7E;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        border-radius: 50%\n}\n.footer__top .right img[data-v-4cfaf658]{\n        height: 20px;\n        width: 20px;\n}\n.footer .footer__bottom[data-v-4cfaf658]{\n        margin-top: 5rem;\n        position: relative;\n        color: #7E7E7E;\n        width: 100%\n}\n.footer__bottom .first-section[data-v-4cfaf658]{\n        margin-left: auto;\n        width: 40%;\n        display: flex;\n        justify-content: space-between;\n        font-size: 1.2rem\n}\n.footer__bottom .first-section li[data-v-4cfaf658]{\n        list-style: none;\n}\n.footer__bottom .last-section[data-v-4cfaf658]{\n        margin-top: 25px;\n        display: flex;\n        justify-content: space-between\n}\n.last-section ul[data-v-4cfaf658]{\n        display: flex;\n        width: 38%;\n        justify-content: space-between\n}\n.last-section ul li[data-v-4cfaf658]{\n        list-style: none;\n        font-size: 1.2rem\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.footer[data-v-4cfaf658]{\n        height: 39.1rem;\n        background-color: #111111;\n        padding:4rem 4rem 0 4rem;\n        margin-bottom: 25px;\n}\n.footer .footer__top[data-v-4cfaf658]{\n        position: relative;\n        height: 21.7rem;\n        width: 100%;\n        display: flex;\n        justify-content: space-between;\n}\n.footer .footer__top[data-v-4cfaf658]::before{\n        position: absolute;\n        content: \"\";\n        bottom: -3rem;\n        width:100%;\n        height: .05rem;\n        background-color: rgba(128, 128, 128, 0.452)\n}\n.footer__top .left[data-v-4cfaf658]{\n        width: 50%;\n        display: flex;\n        justify-content:space-between;\n}\n.footer .left .link__wrapper[data-v-4cfaf658]{\n        height: 100%;\n        width: 30%;\n        display: flex;\n        flex-direction: column;\n        justify-content: space-evenly;\n        gap: 8px\n}\n.footer .left .link__wrapper[data-v-4cfaf658]:nth-child(2),\n    .footer .left .link__wrapper[data-v-4cfaf658]:nth-child(3){\n        height: 80%;\n        display: flex;\n        flex-direction: column;\n        gap: 5px;\n}\n.footer .left .link__wrapper li[data-v-4cfaf658]{\n        list-style: none;\n        font-size: 1.5rem;\n        color: white\n}\n.footer .left .link__wrapper h1[data-v-4cfaf658]:first-child{\n        color: white\n}\n.footer .left .link__wrapper h1[data-v-4cfaf658]{\n        color: #7E7E7E\n}\n.footer__top .right[data-v-4cfaf658]{\n        width: 18%;\n        display: flex;\n        justify-content: space-evenly;\n        align-items: flex-start;\n}\n.footer__top .right div[data-v-4cfaf658]{\n        height: 38px;\n        width: 38px;\n        background-color: #7E7E7E;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        border-radius: 50%\n}\n.footer__top .right img[data-v-4cfaf658]{\n        height: 20px;\n        width: 20px;\n}\n.footer .footer__bottom[data-v-4cfaf658]{\n        margin-top: 5rem;\n        position: relative;\n        color: #7E7E7E;\n        width: 100%\n}\n.footer__bottom .first-section[data-v-4cfaf658]{\n        margin-left: auto;\n        width: 40%;\n        display: flex;\n        justify-content: space-between;\n        font-size: 1.2rem\n}\n.footer__bottom .first-section li[data-v-4cfaf658]{\n        list-style: none;\n}\n.footer__bottom .last-section[data-v-4cfaf658]{\n        margin-top: 25px;\n        display: flex;\n        justify-content: space-between\n}\n.last-section ul[data-v-4cfaf658]{\n        display: flex;\n        width: 38%;\n        justify-content: space-between\n}\n.last-section ul li[data-v-4cfaf658]{\n        list-style: none;\n        font-size: 1.2rem\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -39140,7 +39160,36 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "right-section" })
+      _c("div", { staticClass: "right-section" }, [
+        _c("div", { staticClass: "header-wrapper" }, [
+          _c("h1", { staticClass: "title" }, [_vm._v("Récapitulatif")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "summary" }, [
+          _c("div", [
+            _c("span", [_vm._v("Nombre d'article")]),
+            _vm._v(" "),
+            _c("span", [_vm._v("3 articles")])
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("span", [_vm._v("Total des articles")]),
+            _vm._v(" "),
+            _c("span", [_vm._v("34567 FCFA")])
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("span", [
+              _vm._v("TOTAL"),
+              _c("span", [_vm._v("(TVA incluse)")])
+            ]),
+            _vm._v(" "),
+            _c("span", [_vm._v("34566 FCFA")])
+          ]),
+          _vm._v(" "),
+          _c("div", [_c("button", [_vm._v("Valider mon panier")])])
+        ])
+      ])
     ])
   }
 ]

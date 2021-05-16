@@ -72,7 +72,27 @@
             </div>
         </div>
         <div class="right-section">
-
+            <div class="header-wrapper">
+                <h1 class="title">Récapitulatif</h1>
+            </div>
+            
+            <div class="summary">
+                <div>
+                    <span>Nombre d'article</span>
+                    <span>3 articles</span>
+                </div>
+                <div>
+                    <span>Total des articles</span>
+                    <span>34567 FCFA</span>
+                </div>
+                <div>
+                    <span>TOTAL<span>(TVA incluse)</span></span>
+                    <span>34566 FCFA</span>
+                </div>
+                <div>
+                    <button>Valider mon panier</button>
+                </div>
+            </div>
         </div>
     </div>  
 </template>
@@ -256,7 +276,70 @@ export default {
         font-size: 1.5rem
     }
 
+
+    /* Right Section */
     .container .right-section{
-        background-color: blue
+        /* background-color: blue */
     }
+
+
+    .right-section .header-wrapper{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start
+    }
+
+    /* Summary */
+    .right-section .summary{
+        padding: 20px;
+        height: 274px;
+        box-shadow: 0 0  4px  #d8d7d7;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1.5fr;
+        align-items: center;
+    }
+
+    .summary div{
+        border-bottom: 1px solid #d8d7d7;
+        padding: 15px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .summary div span{
+        font-size: 1.4rem
+    }
+
+    .summary div:nth-child(3),
+    .summary div:last-child{
+        border: none
+    }
+
+    .summary div:nth-child(3) span{
+        font-weight: 900;
+        font-size: 1.6rem
+    }
+
+    .summary div:nth-child(3) span span{
+        margin-left: 10px;
+        font-weight: 100;
+        font-size: 1.2rem
+    }
+
+    .summary button{
+        outline: none;
+        border: none;
+        width: 100%;
+        height: 52px;
+        background-color: black;
+        color: white;
+        font-size: 1.6rem;
+        border-radius: 99999px;
+        cursor: pointer
+    }
+
 </style>

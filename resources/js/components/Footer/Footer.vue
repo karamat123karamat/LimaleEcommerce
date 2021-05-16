@@ -83,7 +83,7 @@ export default {
         height: 39.1rem;
         background-color: #111111;
         padding:4rem 4rem 0 4rem;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 
     .footer .footer__top{

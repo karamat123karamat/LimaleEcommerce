@@ -1,6 +1,7 @@
 import Login from "./components/users/Auth/Login.vue"
 import ProductShow from "./components/Product/ProductShow.vue"
 import Cart from "./components/Cart/Cart.vue"
+import Checkout from "./components/Checkout/Checkout.vue"
 
 export const routes = [
     {
@@ -17,5 +18,10 @@ export const routes = [
         name:"cart",
         component: Cart,
         path:"/mon-panier"
+    },
+    {
+        name:"checkout",
+        component: Checkout,
+        path: "/shipping"
     }
 ]

@@ -93,6 +93,26 @@
                     <button>Valider mon panier</button>
                 </div>
             </div>
+
+            <div class="payment-methods">
+                <div class="top">
+                    <img src="https://img.icons8.com/ios/16/000000/lock-2.png"/> <span>Paiement 100% sécurisé</span>
+                </div>
+                <div class="bottom">
+                    <div class="box">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.lafricamobile.com%2Fwp-content%2Fuploads%2F2016%2F05%2FOMoney.png&f=1&nofb=1" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjournalnt.com%2Fwp-content%2Fuploads%2F2020%2F01%2Ffree-money-678x381.jpg&f=1&nofb=1" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsenegalndiaye.com%2Fwp-content%2Fuploads%2F2020%2F05%2Fwave.jpg&f=1&nofb=1" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="https://img.icons8.com/ios/80/000000/receive-cash.png"/>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>  
 </template>
@@ -113,7 +133,7 @@ export default {
 <style scoped>
     .container{
         margin-top: 5.8rem;
-        min-height: 100vh;
+        min-height: 120vh;
         padding: 46px 4.5rem;
         display: grid;
         column-gap: 60px;
@@ -121,7 +141,6 @@ export default {
     }
     
     .container .left-section{
-        /* background-color: red */
     }
 
     .left-section .header-wrapper{
@@ -165,14 +184,12 @@ export default {
 
     .card-inner .card{
         height: 199px;
-        /* background-color: blue; */
         border-bottom: 1px solid  #d8d7d7;
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
     }
 
     .card .image-wrapper{
-        /* background-color: yellow; */
         display: flex;
         justify-content: center;
         align-items: center
@@ -185,7 +202,6 @@ export default {
     }
 
     .card .middle-section{
-        /* background-color: red; */
         display: flex;
         flex-direction: column;
         padding: 0 10px
@@ -237,7 +253,6 @@ export default {
     }
 
     .card .card-right-section{
-        /* background-color: orange; */
         display: flex;
         align-items: flex-end;
         flex-direction: column;
@@ -279,7 +294,6 @@ export default {
 
     /* Right Section */
     .container .right-section{
-        /* background-color: blue */
     }
 
 
@@ -338,8 +352,64 @@ export default {
         background-color: black;
         color: white;
         font-size: 1.6rem;
-        border-radius: 99999px;
-        cursor: pointer
+        transition: background-color .2s
+    }
+
+    .summary button:hover{
+        background-color: white;
+        cursor: pointer;
+        border: 1px solid black;
+        color: black
+    }
+
+    .right-section .payment-methods{
+        padding: 15px 20px;
+        margin-top: 23px;
+        height: 120px;
+        box-shadow: 0 0  4px  #d8d7d7;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .payment-methods .top{
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .payment-methods .top img{
+        margin-right: 5px;
+    }
+    .payment-methods .top span{
+        font-size: 1.3rem;
+        font-weight: 100;
+    }
+    .payment-methods .bottom{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .bottom div{
+        height: 39px;
+        width:  57px;
+        overflow: hidden;
+        border: 1px solid #d8d7d7;
+        margin-right: 8px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .bottom div img{
+        height: 40px;
+        width: 40px;
+        object-fit: contain
+    }
+    .bottom div:nth-child(2) img{
+        height: 50px;
+        width: 50px;
     }
 
 </style>

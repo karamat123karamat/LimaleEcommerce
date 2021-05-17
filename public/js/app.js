@@ -2048,6 +2048,50 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -7130,7 +7174,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-1f1c81b4]{\n    background-color: #F8F8F8;\n    min-height: 120vh;\n}\n.header[data-v-1f1c81b4]{\n    position: relative;\n    height: 73px;\n    width: 100%;\n    background-color: white;\n    display: flex;\n    justify-content: space-between;\n    align-items: center\n}\n.header .logo-wrapper[data-v-1f1c81b4]{\n    /* background-color: red; */\n    width: 25%;\n    height: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center\n}\n.logo-wrapper h1[data-v-1f1c81b4]{\n    font-size: 3rem;\n    color:#3C3C3B\n}\n.header .center[data-v-1f1c81b4]{\n    position: relative;\n    /* background-color: yellow; */\n    margin-right: auto;\n    height: 100%;\n    width: 50%;\n    display: flex;\n    justify-content: space-evenly;\n    align-items: center;\n}\n.center li[data-v-1f1c81b4]{\n    position: relative;\n    height: 30px;\n    width: 117px;\n    border-radius: 99999px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    font-size: 1.3rem\n}\n.center li[data-v-1f1c81b4]:first-child{\n    position: relative;\n    border: 1px solid #3C3C3B;\n}\n.center li[data-v-1f1c81b4]:first-child::before{\n    content: \"\";\n    position: absolute;\n    left: 100%;\n    width: 100px;\n    height: 1px;\n    background-color: #3C3C3B\n}\n.center li[data-v-1f1c81b4]:nth-child(2)::before{\n    content: \"\";\n    position: absolute;\n    left: 100%;\n    width: 100px;\n    height: 1px;\n    background-color: #E8E8E8\n}\n.center li:first-child img[data-v-1f1c81b4]{\n    height: 9px;\n    width: 9px;\n    margin-right: 5px;\n    -o-object-fit: cover;\n       object-fit: cover;\n}\n.center li[data-v-1f1c81b4]:nth-child(2){\n    background-color: #3C3C3B;\n    color: white\n}\n.center li[data-v-1f1c81b4]:last-child{\n    background-color: #E8E8E8;\n    color: #9C9C9C\n}\n\n\n/* For Wrapper */\n.container .form-wrapper[data-v-1f1c81b4]{\n    margin: 17px auto;\n    height: 1100px;\n    background-color: white;\n    box-shadow: 0 0  2px  #d8d7d7;\n    width: 714px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-1f1c81b4]{\n    background-color: #F8F8F8;\n    min-height: 120vh;\n}\n.header[data-v-1f1c81b4]{\n    position: relative;\n    height: 73px;\n    width: 100%;\n    background-color: white;\n    display: flex;\n    justify-content: space-between;\n    align-items: center\n}\n.header .logo-wrapper[data-v-1f1c81b4]{\n    /* background-color: red; */\n    width: 25%;\n    height: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center\n}\n.logo-wrapper h1[data-v-1f1c81b4]{\n    font-size: 3rem;\n    color:#3C3C3B\n}\n.header .center[data-v-1f1c81b4]{\n    padding: 0 40px;\n    position: relative;\n    /* background-color: yellow; */\n    margin-right: auto;\n    height: 100%;\n    width: 50%;\n    display: flex;\n    justify-content: space-evenly;\n    align-items: center;\n}\n.center li[data-v-1f1c81b4]{\n    position: relative;\n    height: 30px;\n    width: 117px;\n    border-radius: 99999px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    font-size: 1.3rem\n}\n.center li[data-v-1f1c81b4]:first-child{\n    position: relative;\n    border: 1px solid #3C3C3B;\n}\n.center li[data-v-1f1c81b4]:first-child::before{\n    content: \"\";\n    position: absolute;\n    left: 100%;\n    width: 100px;\n    height: 1px;\n    background-color: #3C3C3B\n}\n.center li[data-v-1f1c81b4]:nth-child(2)::before{\n    content: \"\";\n    position: absolute;\n    left: 100%;\n    width: 100px;\n    height: 1px;\n    background-color: #E8E8E8\n}\n.center li:first-child img[data-v-1f1c81b4]{\n    height: 9px;\n    width: 9px;\n    margin-right: 5px;\n    -o-object-fit: cover;\n       object-fit: cover;\n}\n.center li[data-v-1f1c81b4]:nth-child(2){\n    background-color: #3C3C3B;\n    color: white\n}\n.center li[data-v-1f1c81b4]:last-child{\n    background-color: #E8E8E8;\n    color: #9C9C9C\n}\n\n\n/* For Wrapper */\n.container .form-wrapper[data-v-1f1c81b4]{\n    padding: 60px 100px;\n    margin: 17px auto;\n    height: 800px;\n    background-color: white;\n    box-shadow: 0 0  2px  #d8d7d7;\n    width: 714px;\n}\n.form-wrapper .form-top[data-v-1f1c81b4]{\n    height: 115px;\n    /* background-color: red; */\n    display: grid;\n    grid-template-rows: repeat(3, 1fr);\n    align-items: center;\n}\n.form-top h1[data-v-1f1c81b4]{\n    font-size: 2.4rem\n}\n.form-top p[data-v-1f1c81b4]{\n    font-size: 1.3rem;\n    font-weight: 100\n}\n.form-top .sex[data-v-1f1c81b4]{\n    display: flex;\n    align-items: center\n}\n.sex div[data-v-1f1c81b4]{\n    display: flex;\n    align-items: center;\n    margin-right: 8px;\n}\n.sex div span[data-v-1f1c81b4]{\n    margin-left: 3px;\n    font-size: 1.3rem;\n    font-weight: 100\n}\n.form-top .sex div .custom-radio-btn[data-v-1f1c81b4]{\n    position: relative;\n    height: 17px;\n    width: 17px;\n    border: 1px solid #444;\n    border-radius: 50%;\n    transition: .3s\n}\n.custom-radio-btn .checkmark[data-v-1f1c81b4]{\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    position: absolute;\n    width: calc(100% - 7px);\n    height: calc(100% - 7px);\n    background-color: #222;\n    display: none;\n    border-radius: 50%;\n}\n.custom-radio-btn input[data-v-1f1c81b4]{\n    position: relative;\n    height: 100%;\n    width: 100%;\n    outline: none;\n    opacity:0\n}\n.custom-radio-btn input:checked + .checkmark[data-v-1f1c81b4]{\n    display: inline-block;\n}\n\n/* Form bottom */\n.form-bottom[data-v-1f1c81b4]{\n    margin-top: 20px;\n    /* background-color: red; */\n    display: grid;\n    grid-auto-columns: 1fr;\n    grid-template-rows: repeat(5, 48px);\n    row-gap: 17px;\n}\n.form-bottom div[data-v-1f1c81b4]{\n    position: relative;\n    width: 389px;\n    border: .5px solid #E8E8E8;\n    border-radius: 2px;\n    display: flex;\n    flex-direction: column;\n    padding: 0 15px 5px 15px;\n    justify-content: flex-end;\n}\n.form-bottom div label[data-v-1f1c81b4]{\n    position: absolute;\n    left: 15px;\n    top:15px;\n    z-index: 100;\n    font-size: 1.4rem;\n    color: #868E96\n}\n.form-bottom div input[data-v-1f1c81b4]{\n    position: relative;\n    outline: none;\n    border: none;\n    font-size: 1.5rem;\n    color: #3C3C3B\n}   \n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -39506,7 +39550,91 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-wrapper" })
+      _c("div", { staticClass: "form-wrapper" }, [
+        _c("div", { staticClass: "form-top" }, [
+          _c("h1", [_vm._v("Informations personnelles")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Saisissez votre adress pour accéder à tous les services de livraison disponibles."
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "sex" }, [
+            _c("div", [
+              _c(
+                "label",
+                { staticClass: "custom-radio-btn", attrs: { for: "" } },
+                [
+                  _c("input", { attrs: { type: "radio", name: "sex" } }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "checkmark" })
+                ]
+              ),
+              _vm._v(" "),
+              _c("span", [_vm._v("Mme")])
+            ]),
+            _vm._v(" "),
+            _c("div", [
+              _c(
+                "label",
+                { staticClass: "custom-radio-btn", attrs: { for: "" } },
+                [
+                  _c("input", {
+                    attrs: { type: "radio", name: "sex", checked: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "checkmark" })
+                ]
+              ),
+              _vm._v(" "),
+              _c("span", [_vm._v("M.")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "form-bottom" }, [
+          _c("div", [
+            _c("label", { staticClass: "label", attrs: { for: "" } }, [
+              _vm._v("Prénom")
+            ]),
+            _vm._v(" "),
+            _c("input", { attrs: { type: "text" } })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("label", { staticClass: "label", attrs: { for: "" } }, [
+              _vm._v("Nom")
+            ]),
+            _vm._v(" "),
+            _c("input", { attrs: { type: "text" } })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("label", { staticClass: "label", attrs: { for: "" } }, [
+              _vm._v("Ville")
+            ]),
+            _vm._v(" "),
+            _c("input", { attrs: { type: "text" } })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("label", { staticClass: "label", attrs: { for: "" } }, [
+              _vm._v("Adresse (numéro et nom de la rue)")
+            ]),
+            _vm._v(" "),
+            _c("input", { attrs: { type: "text" } })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("label", { staticClass: "label", attrs: { for: "" } }, [
+              _vm._v("Etage, appartement...")
+            ]),
+            _vm._v(" "),
+            _c("input", { attrs: { type: "text" } })
+          ])
+        ])
+      ])
     ])
   }
 ]

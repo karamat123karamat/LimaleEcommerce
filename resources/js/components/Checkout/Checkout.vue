@@ -31,11 +31,11 @@
                            <input type="radio" name="sex">
                            <span class="checkmark"></span>
                        </label>
-                        <span>Mme</span>
+                    <span>Mme</span>
                     </div>
                     <div>
                         <label for="" class="custom-radio-btn">
-                            <input type="radio" name="sex" checked>
+                            <input type="radio" name="sex">
                             <span class="checkmark"></span>
                         </label>
                         <span>M.</span>
@@ -44,25 +44,37 @@
             </div>
 
             <div class="form-bottom">
-                <div>
-                    <label class="label" for="">Prénom</label>
+                <div class="form-group">
+                    <label class="label" for="">Prénom *</label>
                     <input type="text">
                 </div>
-                <div>
-                    <label class="label" for="">Nom</label>
+                <div class="form-group">
+                    <label class="label" for="">Nom *</label>
                     <input type="text">
                 </div>
-                <div>
-                    <label class="label" for="">Ville</label>
+                <div class="form-group">
+                    <label class="label" for="">Ville *</label>
                     <input type="text">
                 </div>
-                <div>
-                    <label class="label" for="">Adresse (numéro et nom de la rue)</label>
+                <div class="form-group">
+                    <label class="label" for="">Adresse (numéro et nom de la rue) *</label>
                     <input type="text">
                 </div>
-                <div>
+                <div class="form-group">
                     <label class="label" for="">Etage, appartement...</label>
                     <input type="text">
+                </div>
+
+                <div class="button-wrapper">
+                    <button>Enregistrer cette adresse</button>
+                </div>
+
+                <div class="info">
+                    <p>Plus d'informations sur le traitement de vos données personnelles <a href="">ici.</a></p>
+                </div>
+
+                <div class="form-validation-info">
+                    <p>champs requis *</p>
                 </div>
             </div>
         </div>
@@ -80,7 +92,7 @@ export default {
 <style scoped>
     .container{
         background-color: #F8F8F8;
-        min-height: 120vh;
+        min-height: 150vh;
     }
 
     .header{
@@ -205,6 +217,7 @@ export default {
     }
 
     .sex div{
+        position: relative;
         display: flex;
         align-items: center;
         margin-right: 8px;
@@ -222,16 +235,19 @@ export default {
         width: 17px;
         border: 1px solid #444;
         border-radius: 50%;
-        transition: .3s
+        transition: .3s;
+        display: flex;
+        justify-content: center;
+        align-items: center
     }
 
     .custom-radio-btn .checkmark{
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        /* top: 50%; */
+        /* left: 50%; */
+        /* transform: translate(-50%,-50%); */
         position: absolute;
-        width: calc(100% - 7px);
-        height: calc(100% - 7px);
+        width: 7px;
+        height: 7px;
         background-color: #222;
         display: none;
         border-radius: 50%;
@@ -255,11 +271,11 @@ export default {
         /* background-color: red; */
         display: grid;
         grid-auto-columns: 1fr;
-        grid-template-rows: repeat(5, 48px);
+        grid-template-rows: 48px 48px 48px 48px 48px 96px 30px 30px;
         row-gap: 17px;
     }
 
-    .form-bottom div{
+    .form-bottom .form-group{
         position: relative;
         width: 389px;
         border: .5px solid #E8E8E8;
@@ -270,7 +286,7 @@ export default {
         justify-content: flex-end;
     }
 
-    .form-bottom div label{
+    .form-bottom .form-group label{
         position: absolute;
         left: 15px;
         top:15px;
@@ -279,11 +295,60 @@ export default {
         color: #868E96
     }
 
-    .form-bottom div input{
+    .form-bottom .form-group input{
         position: relative;
         outline: none;
         border: none;
         font-size: 1.5rem;
         color: #3C3C3B
     }   
+
+    .form-bottom .button-wrapper{
+        /* background-color: red; */
+        display: flex;
+        align-items: center
+    }
+
+    .button-wrapper button{
+        width: 212px;
+        outline: none;
+        border: none;
+        height: 55px;
+        background-color: #3C3C3B;
+        color: white;
+        font-size: 1.7rem;
+        transition: background-color .2s
+    }
+
+    .form-bottom button:hover{
+        cursor: pointer;
+        background-color: white;
+        border: 1px solid #3C3C3B;
+        color: #3C3C3B
+    }
+
+    .form-bottom .info{
+        color: #6C6C6B;
+        font-weight: 100;
+    }
+
+    .form-bottom .info p{
+        font-size: 1.4rem;
+    }
+
+    .info p a{
+        color: #6C6C6B;
+    }
+
+    .form-bottom .form-validation-info{
+        display: flex;
+        justify-content: flex-end
+    }
+
+
+    .form-validation-info p{
+        font-size: 1.4rem;
+        font-weight: 100;
+        color: #6C6C6B
+    }
 </style>

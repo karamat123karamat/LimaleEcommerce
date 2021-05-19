@@ -2,6 +2,7 @@ import Login from "./components/users/Auth/Login.vue"
 import ProductShow from "./components/Product/ProductShow.vue"
 import Cart from "./components/Cart/Cart.vue"
 import Checkout from "./components/Checkout/Checkout.vue"
+import Registration from "./components/users/Auth/Registration.vue"
 
 export const routes = [
     {
@@ -23,5 +24,9 @@ export const routes = [
         name:"checkout",
         component: Checkout,
         path: "/shipping"
+    },{
+        name: 'registration',
+        component: Registration,
+        path: '/inscription'
     }
 ]

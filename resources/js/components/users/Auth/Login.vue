@@ -37,7 +37,7 @@
                     <div class="form">
                         <div class="form-group">
                             <label for="">Adresse email</label>
-                            <input type="text">
+                            <input type="email">
                         </div>
                         <div class="form-group">
                             <label for="">Mot de passe</label>

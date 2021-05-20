@@ -2800,6 +2800,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -41403,7 +41404,7 @@ var staticRenderFns = [
               _c("div", { staticClass: "form-group" }, [
                 _c("label", { attrs: { for: "" } }, [_vm._v("Adresse email")]),
                 _vm._v(" "),
-                _c("input", { attrs: { type: "text" } })
+                _c("input", { attrs: { type: "email" } })
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "form-group" }, [
@@ -41569,7 +41570,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "form-group" }, [
       _c("label", { attrs: { for: "" } }, [_vm._v("Adresse email")]),
       _vm._v(" "),
-      _c("input", { attrs: { type: "text", autocomplete: "off" } })
+      _c("input", { attrs: { type: "email", autocomplete: "off" } })
     ])
   },
   function() {

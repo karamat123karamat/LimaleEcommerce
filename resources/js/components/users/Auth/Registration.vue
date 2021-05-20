@@ -30,7 +30,7 @@
                         </div>
                         <div class="form-group">
                             <label for="">Adresse email</label>
-                            <input type="text" autocomplete="off">
+                            <input type="email" autocomplete="off">
                         </div>
                         <div class="form-group">
                             <label for="">Mot de passe</label>

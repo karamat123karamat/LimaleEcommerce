@@ -100,7 +100,7 @@ export default {
 
     .wrapper-logo h1{
         font-size: 2.5rem;
-        color:#3C3C3B
+        color:#3C3C3B;
     }
 
     .head .right-side{

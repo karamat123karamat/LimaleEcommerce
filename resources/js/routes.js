@@ -4,6 +4,7 @@ import Cart from "./components/Cart/Cart.vue"
 import Checkout from "./components/Checkout/Checkout.vue"
 import Registration from "./components/users/Auth/Registration.vue"
 import ForgetPassword from "./components/users/Auth/ForgetPassword.vue"
+import SuccessPasswordReset from "./components/users/Auth/SuccessPassword.vue"
 
 export const routes = [
     {
@@ -33,5 +34,10 @@ export const routes = [
         name: 'forget-password',
         component: ForgetPassword,
         path: '/mot-de-passe-oublie'
+    },
+    {
+        name: "success-password-reset",
+        component: SuccessPasswordReset,
+        path: "/success-password-reset"
     }
 ]

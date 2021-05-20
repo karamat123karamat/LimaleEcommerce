@@ -3,6 +3,7 @@ import ProductShow from "./components/Product/ProductShow.vue"
 import Cart from "./components/Cart/Cart.vue"
 import Checkout from "./components/Checkout/Checkout.vue"
 import Registration from "./components/users/Auth/Registration.vue"
+import ForgetPassword from "./components/users/Auth/ForgetPassword.vue"
 
 export const routes = [
     {
@@ -28,5 +29,9 @@ export const routes = [
         name: 'registration',
         component: Registration,
         path: '/inscription'
+    },{
+        name: 'forget-password',
+        component: ForgetPassword,
+        path: '/mot-de-passe-oublie'
     }
 ]

@@ -239,6 +239,11 @@ export default {
         color: #3C3C3B
     }
 
+
+    .form-group input:-webkit-autofill{
+        -webkit-box-shadow: 0 0 0px 1000px white inset;
+    }
+
     .form-group:last-child{
         display: flex;
         flex-direction: row;

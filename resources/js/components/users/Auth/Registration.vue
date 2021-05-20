@@ -22,19 +22,23 @@
                     <div class="form">
                         <div class="form-group">
                             <label for="">Prénom</label>
-                            <input type="text">
+                            <input type="text" autocomplete="off">
                         </div>
                         <div class="form-group">
                             <label for="">Nom</label>
-                            <input type="text">
+                            <input type="text" autocomplete="off">
                         </div>
                         <div class="form-group">
                             <label for="">Adresse email</label>
-                            <input type="text">
+                            <input type="text" autocomplete="off">
                         </div>
                         <div class="form-group">
                             <label for="">Mot de passe</label>
-                            <input type="password">
+                            <div>
+                                <input :type="show_password ? 'text' : 'password' " autocomplete="off" >
+                                <img v-show="show_password" @click="showPassword" src="https://img.icons8.com/fluent-systems-regular/48/000000/visible.png"/>
+                                <img v-show="!show_password" @click="showPassword"  src="https://img.icons8.com/material-outlined/24/000000/closed-eye.png"/>
+                            </div>
                         </div>
                         <div class="form-group">
                             <button>S'inscrire</button>
@@ -58,7 +62,17 @@
 
 <script>
 export default {
+    data(){
+        return{
+            show_password: false
+        }
+    },
 
+    methods:{
+        showPassword(){
+            this.show_password = !this.show_password
+        }
+    }
 }
 </script>
 <style scoped>
@@ -145,8 +159,6 @@ export default {
   
     /* Form */
     .inner-content .form{
-        /* background-color: red; */
-        /* margin-top: 10px; */
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, 70px);
@@ -155,7 +167,43 @@ export default {
 
     .form .form-group{
         display: flex;
+        position: relative;
         flex-direction: column;
+    }
+
+    .form .form-group:nth-child(4){
+        /* background-color: red */
+    }
+
+    .form .form-group:nth-child(4) div{
+        padding: 0 10px;
+        border: 1px solid #cdcecf86;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white
+    }
+
+
+    .form .form-group:nth-child(4) input{
+        background-color: white;
+        height: 45px;
+        border: none;
+        outline: none;
+        font-size: 1.7rem;
+        color: #3C3C3B;
+        width: 90%
+    }
+
+    .form .form-group:nth-child(4) img{
+        height: 14px;
+        width: 14px;
+        right: 10px;
+    }
+
+    .form .form-group:nth-child(4) img:hover{
+        cursor: pointer
     }
 
     .form-group label{
@@ -165,6 +213,7 @@ export default {
     }
 
     .form-group input{
+        background-color: white;
         height: 45px;
         border: none;
         border: 1px solid #cdcecf86;
@@ -173,6 +222,10 @@ export default {
         padding: 0 10px;
         font-size: 1.7rem;
         color: #3C3C3B
+    }
+
+    .form-group input:-webkit-autofill{
+        -webkit-box-shadow: 0 0 0px 1000px white inset;
     }
 
     .form-group:last-child{
@@ -202,7 +255,6 @@ export default {
     /* Footer */
     .container .footer{
         border-top: 1px solid #e6e5e5;
-        /* background-color: red; */
         height: 80px;
         width: 100%;
         position: absolute;
@@ -221,7 +273,6 @@ export default {
     }
 
     .footer ul{
-        /* background-color: red; */
         width: 360px;
         display: flex;
         justify-content: space-between;

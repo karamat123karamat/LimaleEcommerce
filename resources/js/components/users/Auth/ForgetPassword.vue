@@ -20,7 +20,7 @@
                 <h1 class="title">Mot de passe oublié?</h1>
                 <div class="inner-content">
                     <div class="or">
-                        <span>Entrez votre adresse e-mail pour réinitialiser le votre de passe.</span>
+                        <span>Entrez votre e-mail ci-dessous pour recevoir vos instructions de réinitialisation de mot de passe.</span>
                     </div>
 
                     <div class="form">

@@ -41174,7 +41174,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "or" }, [
               _c("span", [
                 _vm._v(
-                  "Entrez votre adresse e-mail pour réinitialiser le votre de passe."
+                  "Entrez votre e-mail ci-dessous pour recevoir vos instructions de réinitialisation de mot de passe."
                 )
               ])
             ]),

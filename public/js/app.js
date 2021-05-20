@@ -41168,15 +41168,13 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "body" }, [
         _c("div", { staticClass: "center" }, [
-          _c("h1", { staticClass: "title" }, [
-            _vm._v("Rappel de mot de passe")
-          ]),
+          _c("h1", { staticClass: "title" }, [_vm._v("Mot de passe oublié?")]),
           _vm._v(" "),
           _c("div", { staticClass: "inner-content" }, [
             _c("div", { staticClass: "or" }, [
               _c("span", [
                 _vm._v(
-                  "Mot de passe oublié? Ne vous inquiétez pas nous allons vous aider pour le recupérer."
+                  "Entrez votre adresse e-mail pour réinitialiser le votre de passe."
                 )
               ])
             ]),

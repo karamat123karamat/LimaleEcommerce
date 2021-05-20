@@ -17,10 +17,10 @@
         <!-- Body -->
         <div class="body">
             <div class="center">
-                <h1 class="title">Rappel de mot de passe</h1>
+                <h1 class="title">Mot de passe oublié?</h1>
                 <div class="inner-content">
                     <div class="or">
-                        <span>Mot de passe oublié? Ne vous inquiétez pas nous allons vous aider pour le recupérer.</span>
+                        <span>Entrez votre adresse e-mail pour réinitialiser le votre de passe.</span>
                     </div>
 
                     <div class="form">

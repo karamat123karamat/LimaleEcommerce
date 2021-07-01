@@ -34,19 +34,19 @@
                         <span>ou connectez-vous avec votre e-mail</span>
                     </div>
 
-                    <div class="form">
+                    <form class="form" @submit.prevent="login">
                         <div class="form-group">
                             <label for="">Adresse email</label>
-                            <input type="email">
+                            <input type="email" v-model="formData.email">
                         </div>
                         <div class="form-group">
                             <label for="">Mot de passe</label>
-                            <input type="password">
+                            <input type="password" v-model='formData.password'>
                         </div>
                         <div class="form-group">
-                            <button>Se connecter</button>
+                            <button type='submit'>Se connecter</button>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -67,7 +67,23 @@
 
 <script>
 export default {
-    
+    data(){
+        return{
+            formData: {
+                email: '',
+                password: ''
+            }
+        }
+    },
+    methods:{
+        login(){
+            axios.post('api/login', this.formData).then((response) => {
+                console.log(`la reponse${response}`)
+            }).catch((e) => {
+                console.log(e)
+            })
+        }
+    },
 }
 </script>
 

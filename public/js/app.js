@@ -2685,7 +2685,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  data: function data() {
+    return {
+      formData: {
+        email: '',
+        password: ''
+      }
+    };
+  },
+  methods: {
+    login: function login() {
+      axios.post('api/login', this.formData).then(function (response) {
+        console.log("la reponse".concat(response));
+      })["catch"](function (e) {
+        console.log(e);
+      });
+    }
+  }
+});
 
 /***/ }),
 
@@ -2765,12 +2783,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
-      show_password: false
+      show_password: false,
+      form: {
+        first_name: '',
+        last_name: '',
+        email: '',
+        password: ''
+      },
+      errors: []
     };
   },
   methods: {
     showPassword: function showPassword() {
       this.show_password = !this.show_password;
+    },
+    createAccount: function createAccount() {
+      console.log(this.form);
+      axios.post('/api/register', this.form).then(function () {
+        console.log("saved");
+      })["catch"](function (e) {
+        console.log("ceci est" + e);
+      });
     }
   }
 });
@@ -7473,7 +7506,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.footer[data-v-4cfaf658]{\n        height: 39.1rem;\n        background-color: #111111;\n        padding:4rem 4rem 0 4rem;\n        margin-bottom: 25px;\n}\n.footer .footer__top[data-v-4cfaf658]{\n        position: relative;\n        height: 21.7rem;\n        width: 100%;\n        display: flex;\n        justify-content: space-between;\n}\n.footer .footer__top[data-v-4cfaf658]::before{\n        position: absolute;\n        content: \"\";\n        bottom: -3rem;\n        width:100%;\n        height: .05rem;\n        background-color: rgba(128, 128, 128, 0.452)\n}\n.footer__top .left[data-v-4cfaf658]{\n        width: 50%;\n        display: flex;\n        justify-content:space-between;\n}\n.footer .left .link__wrapper[data-v-4cfaf658]{\n        height: 100%;\n        width: 30%;\n        display: flex;\n        flex-direction: column;\n        justify-content: space-evenly;\n        gap: 8px\n}\n.footer .left .link__wrapper[data-v-4cfaf658]:nth-child(2),\n    .footer .left .link__wrapper[data-v-4cfaf658]:nth-child(3){\n        height: 80%;\n        display: flex;\n        flex-direction: column;\n        gap: 5px;\n}\n.footer .left .link__wrapper li[data-v-4cfaf658]{\n        list-style: none;\n        font-size: 1.5rem;\n        color: white\n}\n.footer .left .link__wrapper h1[data-v-4cfaf658]:first-child{\n        color: white\n}\n.footer .left .link__wrapper h1[data-v-4cfaf658]{\n        color: #7E7E7E\n}\n.footer__top .right[data-v-4cfaf658]{\n        width: 18%;\n        display: flex;\n        justify-content: space-evenly;\n        align-items: flex-start;\n}\n.footer__top .right div[data-v-4cfaf658]{\n        height: 38px;\n        width: 38px;\n        background-color: #7E7E7E;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        border-radius: 50%\n}\n.footer__top .right img[data-v-4cfaf658]{\n        height: 20px;\n        width: 20px;\n}\n.footer .footer__bottom[data-v-4cfaf658]{\n        margin-top: 5rem;\n        position: relative;\n        color: #7E7E7E;\n        width: 100%\n}\n.footer__bottom .first-section[data-v-4cfaf658]{\n        margin-left: auto;\n        width: 40%;\n        display: flex;\n        justify-content: space-between;\n        font-size: 1.2rem\n}\n.footer__bottom .first-section li[data-v-4cfaf658]{\n        list-style: none;\n}\n.footer__bottom .last-section[data-v-4cfaf658]{\n        margin-top: 25px;\n        display: flex;\n        justify-content: space-between\n}\n.last-section ul[data-v-4cfaf658]{\n        display: flex;\n        width: 38%;\n        justify-content: space-between\n}\n.last-section ul li[data-v-4cfaf658]{\n        list-style: none;\n        font-size: 1.2rem\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.footer[data-v-4cfaf658]{\r\n        height: 39.1rem;\r\n        background-color: #111111;\r\n        padding:4rem 4rem 0 4rem;\r\n        margin-bottom: 25px;\n}\n.footer .footer__top[data-v-4cfaf658]{\r\n        position: relative;\r\n        height: 21.7rem;\r\n        width: 100%;\r\n        display: flex;\r\n        justify-content: space-between;\n}\n.footer .footer__top[data-v-4cfaf658]::before{\r\n        position: absolute;\r\n        content: \"\";\r\n        bottom: -3rem;\r\n        width:100%;\r\n        height: .05rem;\r\n        background-color: rgba(128, 128, 128, 0.452)\n}\n.footer__top .left[data-v-4cfaf658]{\r\n        width: 50%;\r\n        display: flex;\r\n        justify-content:space-between;\n}\n.footer .left .link__wrapper[data-v-4cfaf658]{\r\n        height: 100%;\r\n        width: 30%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: space-evenly;\r\n        gap: 8px\n}\n.footer .left .link__wrapper[data-v-4cfaf658]:nth-child(2),\r\n    .footer .left .link__wrapper[data-v-4cfaf658]:nth-child(3){\r\n        height: 80%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        gap: 5px;\n}\n.footer .left .link__wrapper li[data-v-4cfaf658]{\r\n        list-style: none;\r\n        font-size: 1.5rem;\r\n        color: white\n}\n.footer .left .link__wrapper h1[data-v-4cfaf658]:first-child{\r\n        color: white\n}\n.footer .left .link__wrapper h1[data-v-4cfaf658]{\r\n        color: #7E7E7E\n}\n.footer__top .right[data-v-4cfaf658]{\r\n        width: 18%;\r\n        display: flex;\r\n        justify-content: space-evenly;\r\n        align-items: flex-start;\n}\n.footer__top .right div[data-v-4cfaf658]{\r\n        height: 38px;\r\n        width: 38px;\r\n        background-color: #7E7E7E;\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        border-radius: 50%\n}\n.footer__top .right img[data-v-4cfaf658]{\r\n        height: 20px;\r\n        width: 20px;\n}\n.footer .footer__bottom[data-v-4cfaf658]{\r\n        margin-top: 5rem;\r\n        position: relative;\r\n        color: #7E7E7E;\r\n        width: 100%\n}\n.footer__bottom .first-section[data-v-4cfaf658]{\r\n        margin-left: auto;\r\n        width: 40%;\r\n        display: flex;\r\n        justify-content: space-between;\r\n        font-size: 1.2rem\n}\n.footer__bottom .first-section li[data-v-4cfaf658]{\r\n        list-style: none;\n}\n.footer__bottom .last-section[data-v-4cfaf658]{\r\n        margin-top: 25px;\r\n        display: flex;\r\n        justify-content: space-between\n}\n.last-section ul[data-v-4cfaf658]{\r\n        display: flex;\r\n        width: 38%;\r\n        justify-content: space-between\n}\n.last-section ul li[data-v-4cfaf658]{\r\n        list-style: none;\r\n        font-size: 1.2rem\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7593,7 +7626,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-361c847e]{\n       position: relative;\n       padding: 0 80px;\n       background-color: #F8F8F8;\n       min-height: 100vh;\n}\n.container .head[data-v-361c847e]{\n       width: 100%;\n       height: 60px;\n       display: flex;\n       justify-content: space-between;\n       align-items: center\n}\n.head .wrapper-logo[data-v-361c847e]{\n       height: 100%;\n       display: flex;\n       justify-content: center;\n       align-items: center\n}\n.wrapper-logo h1[data-v-361c847e]{\n       font-size: 2.5rem;\n       color:#3C3C3B;\n}\n.head .right-side[data-v-361c847e]{\n       height: 100%;\n       width: 290px;\n       display: flex;\n       justify-content: space-between;\n       align-items: center\n}\n.right-side li[data-v-361c847e]{\n       list-style: none;\n       height: 100%;\n       display: flex;\n       align-items: center;\n}\n.right-side li[data-v-361c847e]:first-child{\n       font-size: 1.3rem;\n       color: #3C3C3B\n}\n.right-side li:last-child button[data-v-361c847e]{\n       outline: none;\n       height: 34px;\n       width: 120px;\n       border: 1px solid #e3e3e4;\n       background-color: white;\n       border-radius: 5px;\n       box-shadow: 0 0 2px #dbdbdb;\n       color: #3C3C3B\n}\n\n   /* Body */\n.container .body[data-v-361c847e]{\n       widows: 100%;\n       display: flex;\n       padding-top: 50px;\n       justify-content: center;\n       height: calc(80vh);\n}\n.body .title[data-v-361c847e]{\n       font-size: 2.3rem;\n       color: #3C3C3B;\n       letter-spacing: .10rem;\n       text-align: center\n}\n.body .inner-content[data-v-361c847e]{\n       margin-top: 20px;\n       padding: 0 90px;\n       width: 500px\n}\n\n \n   /* Form */\n.inner-content .form[data-v-361c847e]{\n       display: grid;\n       grid-template-columns: 1fr;\n       grid-template-rows: repeat(5, 70px);\n       row-gap: 15px;\n}\n.form .form-group[data-v-361c847e]{\n       display: flex;\n       position: relative;\n       flex-direction: column;\n}\n.form .form-group[data-v-361c847e]:nth-child(4){\n       /* background-color: red */\n}\n.form .form-group:nth-child(4) div[data-v-361c847e]{\n       padding: 0 10px;\n       border: 1px solid #cdcecf86;\n       border-radius: 5px;\n       display: flex;\n       justify-content: space-between;\n       align-items: center;\n       background-color: white\n}\n.form .form-group:nth-child(4) input[data-v-361c847e]{\n       background-color: white;\n       height: 45px;\n       border: none;\n       outline: none;\n       font-size: 1.7rem;\n       color: #3C3C3B;\n       width: 90%\n}\n.form .form-group:nth-child(4) img[data-v-361c847e]{\n       height: 14px;\n       width: 14px;\n       right: 10px;\n}\n.form .form-group:nth-child(4) img[data-v-361c847e]:hover{\n       cursor: pointer\n}\n.form-group label[data-v-361c847e]{\n       font-size: 1.4rem;\n       font-weight: 400;\n       margin-bottom: 8px\n}\n.form-group input[data-v-361c847e]{\n       background-color: white;\n       height: 45px;\n       border: none;\n       border: 1px solid #cdcecf86;\n       border-radius: 5px;\n       outline: none;\n       padding: 0 10px;\n       font-size: 1.7rem;\n       color: #3C3C3B\n}\n.form-group input[data-v-361c847e]:-webkit-autofill{\n       -webkit-box-shadow: 0 0 0px 1000px white inset;\n}\n.form-group[data-v-361c847e]:last-child{\n       display: flex;\n       flex-direction: row;\n       align-items: center\n}\n.form-group button[data-v-361c847e]{\n       width: 100%;\n       height: 45px;\n       background-color: #3C3C3B;\n       border: none;\n       color: white;\n       font-size: 1.5rem;\n       border-radius: 5px;\n       transition: background-color .2s\n}\n.form-group button[data-v-361c847e]:hover{\n       cursor: pointer;\n       border: 1px solid #3C3C3B;\n       background-color: white;\n       color: #3C3C3B\n}\n\n   /* Footer */\n.container .footer[data-v-361c847e]{\n       border-top: 1px solid #e6e5e5;\n       height: 80px;\n       width: 100%;\n       position: absolute;\n       bottom: 0;\n       left: 0;\n       right: 0;\n       font-weight: 100;\n       padding: 0 80px;\n       display: flex;\n       justify-content: space-between;\n       align-items: center\n}\n.footer span[data-v-361c847e]{\n       font-size: 1.2rem;\n}\n.footer ul[data-v-361c847e]{\n       width: 360px;\n       display: flex;\n       justify-content: space-between;\n       align-items: center\n}\n.footer ul li[data-v-361c847e]{\n       font-size: 1.2rem;\n       list-style: none;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-361c847e]{\n       position: relative;\n       padding: 0 80px;\n       background-color: #F8F8F8;\n       min-height: 100vh;\n}\n.container .head[data-v-361c847e]{\n       width: 100%;\n       height: 60px;\n       display: flex;\n       justify-content: space-between;\n       align-items: center\n}\n.head .wrapper-logo[data-v-361c847e]{\n       height: 100%;\n       display: flex;\n       justify-content: center;\n       align-items: center\n}\n.wrapper-logo h1[data-v-361c847e]{\n       font-size: 2.5rem;\n       color:#3C3C3B;\n}\n.head .right-side[data-v-361c847e]{\n       height: 100%;\n       width: 290px;\n       display: flex;\n       justify-content: space-between;\n       align-items: center\n}\n.right-side li[data-v-361c847e]{\n       list-style: none;\n       height: 100%;\n       display: flex;\n       align-items: center;\n}\n.right-side li[data-v-361c847e]:first-child{\n       font-size: 1.3rem;\n       color: #3C3C3B\n}\n.right-side li:last-child button[data-v-361c847e]{\n       outline: none;\n       height: 34px;\n       width: 120px;\n       border: 1px solid #e3e3e4;\n       background-color: white;\n       border-radius: 5px;\n       box-shadow: 0 0 2px #dbdbdb;\n       color: #3C3C3B\n}\n\n   /* Body */\n.container .body[data-v-361c847e]{\n       widows: 100%;\n       display: flex;\n       padding-top: 50px;\n       justify-content: center;\n       height: calc(80vh);\n}\n.body .title[data-v-361c847e]{\n       font-size: 2.3rem;\n       color: #3C3C3B;\n       letter-spacing: .10rem;\n       text-align: center\n}\n.body .inner-content[data-v-361c847e]{\n       margin-top: 20px;\n       padding: 0 90px;\n       width: 500px\n}\n\n \n   /* Form */\n.inner-content .form[data-v-361c847e]{\n       display: grid;\n       grid-template-columns: 1fr;\n       grid-template-rows: repeat(5, 70px);\n       row-gap: 15px;\n}\n.form .form-group[data-v-361c847e]{\n       display: flex;\n       position: relative;\n       flex-direction: column;\n}\n.form .form-group[data-v-361c847e]:nth-child(4){\n       /* background-color: red */\n}\n.form .form-group:nth-child(4) div[data-v-361c847e]{\n       padding: 0 10px;\n       border: 1px solid #cdcecf86;\n       border-radius: 5px;\n       display: flex;\n       justify-content: space-between;\n       align-items: center;\n       background-color: white\n}\n.form .form-group:nth-child(4) input[data-v-361c847e]{\n       background-color: white;\n       height: 45px;\n       border: none;\n       outline: none;\n       font-size: 1.7rem;\n       color: #3C3C3B;\n       width: 90%\n}\n.form .form-group:nth-child(4) img[data-v-361c847e]{\n       height: 14px;\n       width: 14px;\n       right: 10px;\n}\n.form .form-group:nth-child(4) img[data-v-361c847e]:hover{\n       cursor: pointer\n}\n.form-group label[data-v-361c847e]{\n       font-size: 1.4rem;\n       font-weight: 400;\n       margin-bottom: 8px\n}\n.form-group input[data-v-361c847e]{\n       background-color: white;\n       height: 45px;\n       border: none;\n       border: 1px solid #cdcecf86;\n       border-radius: 5px;\n       outline: none;\n       padding: 0 10px;\n       font-size: 1.7rem;\n       color: #3C3C3B\n}\n.form-group-actions-password[data-v-361c847e]{\n       font-size: 13px;\n       cursor: pointer\n}\n.form-group input[data-v-361c847e]:-webkit-autofill{\n       -webkit-box-shadow: 0 0 0px 1000px white inset;\n}\n.form-group[data-v-361c847e]:last-child{\n       display: flex;\n       flex-direction: row;\n       align-items: center\n}\n.form-group button[data-v-361c847e]{\n       width: 100%;\n       height: 45px;\n       background-color: #3C3C3B;\n       border: none;\n       color: white;\n       font-size: 1.5rem;\n       border-radius: 5px;\n       transition: background-color .2s\n}\n.form-group button[data-v-361c847e]:hover{\n       cursor: pointer;\n       border: 1px solid #3C3C3B;\n       background-color: white;\n       color: #3C3C3B\n}\n\n   /* Footer */\n.container .footer[data-v-361c847e]{\n       border-top: 1px solid #e6e5e5;\n       height: 80px;\n       width: 100%;\n       position: absolute;\n       bottom: 0;\n       left: 0;\n       right: 0;\n       font-weight: 100;\n       padding: 0 80px;\n       display: flex;\n       justify-content: space-between;\n       align-items: center\n}\n.footer span[data-v-361c847e]{\n       font-size: 1.2rem;\n}\n.footer ul[data-v-361c847e]{\n       width: 360px;\n       display: flex;\n       justify-content: space-between;\n       align-items: center\n}\n.footer ul li[data-v-361c847e]{\n       font-size: 1.2rem;\n       list-style: none;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -41345,92 +41378,164 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "container" }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "body" }, [
+      _c("div", { staticClass: "center" }, [
+        _c("h1", { staticClass: "title" }, [_vm._v("Se connecter")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "inner-content" }, [
+          _vm._m(1),
+          _vm._v(" "),
+          _vm._m(2),
+          _vm._v(" "),
+          _c(
+            "form",
+            {
+              staticClass: "form",
+              on: {
+                submit: function($event) {
+                  $event.preventDefault()
+                  return _vm.login($event)
+                }
+              }
+            },
+            [
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "" } }, [_vm._v("Adresse email")]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.formData.email,
+                      expression: "formData.email"
+                    }
+                  ],
+                  attrs: { type: "email" },
+                  domProps: { value: _vm.formData.email },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.$set(_vm.formData, "email", $event.target.value)
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "" } }, [_vm._v("Mot de passe")]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.formData.password,
+                      expression: "formData.password"
+                    }
+                  ],
+                  attrs: { type: "password" },
+                  domProps: { value: _vm.formData.password },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.$set(_vm.formData, "password", $event.target.value)
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _vm._m(3)
+            ]
+          )
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _vm._m(4)
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "head" }, [
-        _c("div", { staticClass: "wrapper-logo" }, [
-          _c("h1", [_vm._v("WISHOP")])
-        ]),
-        _vm._v(" "),
-        _c("ul", { staticClass: "right-side" }, [
-          _c("li", [_vm._v("Êtes-vous nouveau?")]),
-          _vm._v(" "),
-          _c("li", [_c("button", [_vm._v("Créer un compte")])])
-        ])
+    return _c("div", { staticClass: "head" }, [
+      _c("div", { staticClass: "wrapper-logo" }, [
+        _c("h1", [_vm._v("WISHOP")])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "body" }, [
-        _c("div", { staticClass: "center" }, [
-          _c("h1", { staticClass: "title" }, [_vm._v("Se connecter")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "inner-content" }, [
-            _c("div", { staticClass: "connect-with-socialnetwork" }, [
-              _c("div", [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "https://img.icons8.com/fluent/48/000000/facebook-new.png"
-                  }
-                }),
-                _vm._v(" "),
-                _c("span", [_vm._v("Facebook")])
-              ]),
-              _vm._v(" "),
-              _c("div", [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "https://img.icons8.com/fluent/48/000000/google-logo.png"
-                  }
-                }),
-                _vm._v(" "),
-                _c("span", [_vm._v("Google")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "or" }, [
-              _c("div", { staticClass: "divider" }),
-              _vm._v(" "),
-              _c("span", [_vm._v("ou connectez-vous avec votre e-mail")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form" }, [
-              _c("div", { staticClass: "form-group" }, [
-                _c("label", { attrs: { for: "" } }, [_vm._v("Adresse email")]),
-                _vm._v(" "),
-                _c("input", { attrs: { type: "email" } })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-group" }, [
-                _c("label", { attrs: { for: "" } }, [_vm._v("Mot de passe")]),
-                _vm._v(" "),
-                _c("input", { attrs: { type: "password" } })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-group" }, [
-                _c("button", [_vm._v("Se connecter")])
-              ])
-            ])
-          ])
-        ])
+      _c("ul", { staticClass: "right-side" }, [
+        _c("li", [_vm._v("Êtes-vous nouveau?")]),
+        _vm._v(" "),
+        _c("li", [_c("button", [_vm._v("Créer un compte")])])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "connect-with-socialnetwork" }, [
+      _c("div", [
+        _c("img", {
+          attrs: {
+            src: "https://img.icons8.com/fluent/48/000000/facebook-new.png"
+          }
+        }),
+        _vm._v(" "),
+        _c("span", [_vm._v("Facebook")])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "footer" }, [
-        _c("span", [_vm._v("© 2021 Wishop, Inc. Tous droits réservés")]),
+      _c("div", [
+        _c("img", {
+          attrs: {
+            src: "https://img.icons8.com/fluent/48/000000/google-logo.png"
+          }
+        }),
         _vm._v(" "),
-        _c("ul", [
-          _c("li", [_vm._v("Conditions d'utilisation")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("Condition générale de vente")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("Guides")])
-        ])
+        _c("span", [_vm._v("Google")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "or" }, [
+      _c("div", { staticClass: "divider" }),
+      _vm._v(" "),
+      _c("span", [_vm._v("ou connectez-vous avec votre e-mail")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-group" }, [
+      _c("button", { attrs: { type: "submit" } }, [_vm._v("Se connecter")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "footer" }, [
+      _c("span", [_vm._v("© 2021 Wishop, Inc. Tous droits réservés")]),
+      _vm._v(" "),
+      _c("ul", [
+        _c("li", [_vm._v("Conditions d'utilisation")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("Condition générale de vente")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("Guides")])
       ])
     ])
   }
@@ -41466,64 +41571,219 @@ var render = function() {
         _vm._v(" "),
         _c("div", { staticClass: "inner-content" }, [
           _c("div", { staticClass: "form" }, [
-            _vm._m(1),
+            _c("div", { staticClass: "form-group" }, [
+              _c("label", { attrs: { for: "" } }, [_vm._v("Prénom")]),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.form.first_name,
+                    expression: "form.first_name"
+                  }
+                ],
+                attrs: { type: "text", autocomplete: "off" },
+                domProps: { value: _vm.form.first_name },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.form, "first_name", $event.target.value)
+                  }
+                }
+              })
+            ]),
             _vm._v(" "),
-            _vm._m(2),
+            _c("div", { staticClass: "form-group" }, [
+              _c("label", { attrs: { for: "" } }, [_vm._v("Nom")]),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.form.last_name,
+                    expression: "form.last_name"
+                  }
+                ],
+                attrs: { type: "text", autocomplete: "off" },
+                domProps: { value: _vm.form.last_name },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.form, "last_name", $event.target.value)
+                  }
+                }
+              })
+            ]),
             _vm._v(" "),
-            _vm._m(3),
+            _c("div", { staticClass: "form-group" }, [
+              _c("label", { attrs: { for: "" } }, [_vm._v("Adresse email")]),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.form.email,
+                    expression: "form.email"
+                  }
+                ],
+                attrs: { type: "email", autocomplete: "off" },
+                domProps: { value: _vm.form.email },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.form, "email", $event.target.value)
+                  }
+                }
+              })
+            ]),
             _vm._v(" "),
             _c("div", { staticClass: "form-group" }, [
               _c("label", { attrs: { for: "" } }, [_vm._v("Mot de passe")]),
               _vm._v(" "),
               _c("div", [
-                _c("input", {
-                  attrs: {
-                    type: _vm.show_password ? "text" : "password",
-                    autocomplete: "off"
-                  }
-                }),
+                (_vm.show_password ? "text" : "password") === "checkbox"
+                  ? _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.password,
+                          expression: "form.password"
+                        }
+                      ],
+                      attrs: { autocomplete: "off", type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.password)
+                          ? _vm._i(_vm.form.password, null) > -1
+                          : _vm.form.password
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.password,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "password",
+                                  $$a.concat([$$v])
+                                )
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "password",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "password", $$c)
+                          }
+                        }
+                      }
+                    })
+                  : (_vm.show_password ? "text" : "password") === "radio"
+                  ? _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.password,
+                          expression: "form.password"
+                        }
+                      ],
+                      attrs: { autocomplete: "off", type: "radio" },
+                      domProps: { checked: _vm._q(_vm.form.password, null) },
+                      on: {
+                        change: function($event) {
+                          return _vm.$set(_vm.form, "password", null)
+                        }
+                      }
+                    })
+                  : _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.password,
+                          expression: "form.password"
+                        }
+                      ],
+                      attrs: {
+                        autocomplete: "off",
+                        type: _vm.show_password ? "text" : "password"
+                      },
+                      domProps: { value: _vm.form.password },
+                      on: {
+                        input: function($event) {
+                          if ($event.target.composing) {
+                            return
+                          }
+                          _vm.$set(_vm.form, "password", $event.target.value)
+                        }
+                      }
+                    }),
                 _vm._v(" "),
-                _c("img", {
-                  directives: [
-                    {
-                      name: "show",
-                      rawName: "v-show",
-                      value: _vm.show_password,
-                      expression: "show_password"
-                    }
-                  ],
-                  attrs: {
-                    src:
-                      "https://img.icons8.com/fluent-systems-regular/48/000000/visible.png"
+                _c(
+                  "span",
+                  {
+                    directives: [
+                      {
+                        name: "show",
+                        rawName: "v-show",
+                        value: !_vm.show_password,
+                        expression: "!show_password"
+                      }
+                    ],
+                    staticClass: "form-group-actions-password",
+                    on: { click: _vm.showPassword }
                   },
-                  on: { click: _vm.showPassword }
-                }),
+                  [_vm._v("afficher")]
+                ),
                 _vm._v(" "),
-                _c("img", {
-                  directives: [
-                    {
-                      name: "show",
-                      rawName: "v-show",
-                      value: !_vm.show_password,
-                      expression: "!show_password"
-                    }
-                  ],
-                  attrs: {
-                    src:
-                      "https://img.icons8.com/material-outlined/24/000000/closed-eye.png"
+                _c(
+                  "span",
+                  {
+                    directives: [
+                      {
+                        name: "show",
+                        rawName: "v-show",
+                        value: _vm.show_password,
+                        expression: "show_password"
+                      }
+                    ],
+                    staticClass: "form-group-actions-password",
+                    on: { click: _vm.showPassword }
                   },
-                  on: { click: _vm.showPassword }
-                })
+                  [_vm._v("cacher")]
+                )
               ])
             ]),
             _vm._v(" "),
-            _vm._m(4)
+            _c("div", { staticClass: "form-group" }, [
+              _c("button", { on: { click: _vm.createAccount } }, [
+                _vm._v("S'inscrire")
+              ])
+            ])
           ])
         ])
       ])
     ]),
     _vm._v(" "),
-    _vm._m(5)
+    _vm._m(1)
   ])
 }
 var staticRenderFns = [
@@ -41541,44 +41801,6 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("li", [_c("button", [_vm._v("Se connecter")])])
       ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "" } }, [_vm._v("Prénom")]),
-      _vm._v(" "),
-      _c("input", { attrs: { type: "text", autocomplete: "off" } })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "" } }, [_vm._v("Nom")]),
-      _vm._v(" "),
-      _c("input", { attrs: { type: "text", autocomplete: "off" } })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "" } }, [_vm._v("Adresse email")]),
-      _vm._v(" "),
-      _c("input", { attrs: { type: "email", autocomplete: "off" } })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("button", [_vm._v("S'inscrire")])
     ])
   },
   function() {

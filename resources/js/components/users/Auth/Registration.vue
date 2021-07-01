@@ -22,26 +22,26 @@
                     <div class="form">
                         <div class="form-group">
                             <label for="">Prénom</label>
-                            <input type="text" autocomplete="off">
+                            <input type="text" autocomplete="off" v-model="form.first_name">
                         </div>
                         <div class="form-group">
                             <label for="">Nom</label>
-                            <input type="text" autocomplete="off">
+                            <input type="text" autocomplete="off" v-model="form.last_name">
                         </div>
                         <div class="form-group">
                             <label for="">Adresse email</label>
-                            <input type="email" autocomplete="off">
+                            <input type="email" autocomplete="off" v-model="form.email">
                         </div>
                         <div class="form-group">
                             <label for="">Mot de passe</label>
                             <div>
-                                <input :type="show_password ? 'text' : 'password' " autocomplete="off" >
-                                <img v-show="show_password" @click="showPassword" src="https://img.icons8.com/fluent-systems-regular/48/000000/visible.png"/>
-                                <img v-show="!show_password" @click="showPassword"  src="https://img.icons8.com/material-outlined/24/000000/closed-eye.png"/>
+                                <input :type="show_password ? 'text' : 'password' " autocomplete="off" v-model="form.password">
+                                <span  v-show="!show_password" @click="showPassword" class="form-group-actions-password">afficher</span>
+                                <span v-show="show_password" @click="showPassword"  class="form-group-actions-password">cacher</span>
                             </div>
                         </div>
                         <div class="form-group">
-                            <button>S'inscrire</button>
+                            <button @click='createAccount'>S'inscrire</button>
                         </div>
                     </div>
                 </div>
@@ -64,13 +64,30 @@
 export default {
     data(){
         return{
-            show_password: false
+            show_password: false,
+            form:{
+                first_name:'',
+                last_name:'',
+                email:'',
+                password: ''
+            },
+            errors:[]
         }
     },
 
     methods:{
         showPassword(){
             this.show_password = !this.show_password
+        },
+
+        createAccount(){
+            console.log(this.form)
+
+            axios.post('/api/register', this.form).then(() => {
+                console.log("saved")
+            }).catch((e) => {
+                console.log("ceci est" + e)
+})
         }
     }
 }
@@ -222,6 +239,11 @@ export default {
         padding: 0 10px;
         font-size: 1.7rem;
         color: #3C3C3B
+    }
+
+    .form-group-actions-password{
+        font-size: 13px;
+        cursor: pointer
     }
 
     .form-group input:-webkit-autofill{
